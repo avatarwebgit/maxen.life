@@ -1,0 +1,4 @@
+[18-Oct-2024 05:31:26 UTC] PHP Fatal error:  Uncaught Error: Class "Tests\TestCase" not found in /home1/maxen/public_html/core/tests/Feature/ExampleTest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/tests/Feature/ExampleTest.php on line 8

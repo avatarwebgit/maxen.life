@@ -1,0 +1,40 @@
+[18-Oct-2024 05:30:57 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home1/maxen/public_html/core/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/routes/api.php on line 17
+[18-Oct-2024 05:30:57 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Broadcast" not found in /home1/maxen/public_html/core/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/routes/channels.php on line 16
+[18-Oct-2024 05:30:58 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home1/maxen/public_html/core/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/routes/api.php on line 17
+[18-Oct-2024 05:30:58 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Broadcast" not found in /home1/maxen/public_html/core/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/routes/channels.php on line 16
+[18-Oct-2024 05:30:59 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Artisan" not found in /home1/maxen/public_html/core/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/routes/console.php on line 17
+[18-Oct-2024 05:30:59 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home1/maxen/public_html/core/routes/web.php:67
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/routes/web.php on line 67
+[18-Oct-2024 05:31:00 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Artisan" not found in /home1/maxen/public_html/core/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/routes/console.php on line 17
+[18-Oct-2024 05:31:01 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home1/maxen/public_html/core/routes/web.php:67
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/routes/web.php on line 67
+[18-Oct-2024 05:31:26 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home1/maxen/public_html/core/routes/web.php:67
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/routes/web.php on line 67
+[18-Oct-2024 05:31:27 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home1/maxen/public_html/core/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/routes/api.php on line 17

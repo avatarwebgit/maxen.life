@@ -1,0 +1,404 @@
+[18-Oct-2024 05:30:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/app.php on line 16
+[18-Oct-2024 05:30:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/broadcasting.php on line 18
+[18-Oct-2024 05:30:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/app.php on line 16
+[18-Oct-2024 05:30:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/broadcasting.php on line 18
+[18-Oct-2024 05:30:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/cache.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/cache.php on line 21
+[18-Oct-2024 05:30:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/cookie-consent.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/cookie-consent.php on line 12
+[18-Oct-2024 05:30:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/database.php on line 18
+[18-Oct-2024 05:30:18 UTC] PHP Fatal error:  Uncaught Error: Class "App\Providers\RouteServiceProvider" not found in /home1/maxen/public_html/core/config/fortify.php:64
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/fortify.php on line 64
+[18-Oct-2024 05:30:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/cache.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/cache.php on line 21
+[18-Oct-2024 05:30:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/cookie-consent.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/cookie-consent.php on line 12
+[18-Oct-2024 05:30:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/filesystems.php on line 16
+[18-Oct-2024 05:30:19 UTC] PHP Fatal error:  Uncaught Error: Class "App\Providers\RouteServiceProvider" not found in /home1/maxen/public_html/core/config/fortify.php:64
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/fortify.php on line 64
+[18-Oct-2024 05:30:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/database.php on line 18
+[18-Oct-2024 05:30:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/filesystems.php on line 16
+[18-Oct-2024 05:30:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/hashing.php:32
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/hashing.php on line 32
+[18-Oct-2024 05:30:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/logging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/logging.php on line 20
+[18-Oct-2024 05:30:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/mail.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/mail.php on line 16
+[18-Oct-2024 05:30:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/hashing.php:32
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/hashing.php on line 32
+[18-Oct-2024 05:30:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/logging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/logging.php on line 20
+[18-Oct-2024 05:30:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/queue.php on line 16
+[18-Oct-2024 05:30:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/sanctum.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/sanctum.php on line 16
+[18-Oct-2024 05:30:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/mail.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/mail.php on line 16
+[18-Oct-2024 05:30:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/services.php on line 18
+[18-Oct-2024 05:30:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/sanctum.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/sanctum.php on line 16
+[18-Oct-2024 05:30:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/queue.php on line 16
+[18-Oct-2024 05:30:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/services.php on line 18
+[18-Oct-2024 05:30:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/session.php on line 21
+[18-Oct-2024 05:30:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/shopping_cart.php:11
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/shopping_cart.php on line 11
+[18-Oct-2024 05:30:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home1/maxen/public_html/core/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/view.php on line 17
+[18-Oct-2024 05:30:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/session.php on line 21
+[18-Oct-2024 05:30:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/shopping_cart.php:11
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/shopping_cart.php on line 11
+[18-Oct-2024 05:30:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home1/maxen/public_html/core/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/view.php on line 17
+[18-Oct-2024 05:31:25 UTC] PHP Fatal error:  Uncaught Error: Class "App\Providers\RouteServiceProvider" not found in /home1/maxen/public_html/core/config/fortify.php:64
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/fortify.php on line 64
+[18-Oct-2024 05:31:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/app.php on line 16
+[18-Oct-2024 05:31:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/shopping_cart.php:11
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/shopping_cart.php on line 11
+[18-Oct-2024 05:31:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/mail.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/mail.php on line 16
+[18-Oct-2024 05:31:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/queue.php on line 16
+[18-Oct-2024 05:31:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/logging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/logging.php on line 20
+[18-Oct-2024 05:31:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/services.php on line 18
+[18-Oct-2024 05:31:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/sanctum.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/sanctum.php on line 16
+[18-Oct-2024 05:31:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/hashing.php:32
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/hashing.php on line 32
+[18-Oct-2024 05:31:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/session.php on line 21
+[18-Oct-2024 05:31:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/cookie-consent.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/cookie-consent.php on line 12
+[18-Oct-2024 05:31:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/broadcasting.php on line 18
+[18-Oct-2024 05:31:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/filesystems.php on line 16
+[18-Oct-2024 05:31:31 UTC] PHP Fatal error:  Uncaught Error: Class "App\Providers\RouteServiceProvider" not found in /home1/maxen/public_html/core/config/fortify.php:64
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/fortify.php on line 64
+[18-Oct-2024 05:31:31 UTC] PHP Fatal error:  Uncaught Error: Class "App\Providers\RouteServiceProvider" not found in /home1/maxen/public_html/core/config/fortify.php:64
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/fortify.php on line 64
+[18-Oct-2024 05:31:31 UTC] PHP Fatal error:  Uncaught Error: Class "App\Providers\RouteServiceProvider" not found in /home1/maxen/public_html/core/config/fortify.php:64
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/fortify.php on line 64
+[18-Oct-2024 05:31:31 UTC] PHP Fatal error:  Uncaught Error: Class "App\Providers\RouteServiceProvider" not found in /home1/maxen/public_html/core/config/fortify.php:64
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/fortify.php on line 64
+[18-Oct-2024 05:31:32 UTC] PHP Fatal error:  Uncaught Error: Class "App\Providers\RouteServiceProvider" not found in /home1/maxen/public_html/core/config/fortify.php:64
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/fortify.php on line 64
+[18-Oct-2024 05:31:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/app.php on line 16
+[18-Oct-2024 05:31:32 UTC] PHP Fatal error:  Uncaught Error: Class "App\Providers\RouteServiceProvider" not found in /home1/maxen/public_html/core/config/fortify.php:64
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/fortify.php on line 64
+[18-Oct-2024 05:31:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/app.php on line 16
+[18-Oct-2024 05:31:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/shopping_cart.php:11
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/shopping_cart.php on line 11
+[18-Oct-2024 05:31:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/app.php on line 16
+[18-Oct-2024 05:31:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/shopping_cart.php:11
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/shopping_cart.php on line 11
+[18-Oct-2024 05:31:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/queue.php on line 16
+[18-Oct-2024 05:31:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/logging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/logging.php on line 20
+[18-Oct-2024 05:31:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/queue.php on line 16
+[18-Oct-2024 05:31:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/shopping_cart.php:11
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/shopping_cart.php on line 11
+[18-Oct-2024 05:31:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/mail.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/mail.php on line 16
+[18-Oct-2024 05:31:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/mail.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/mail.php on line 16
+[18-Oct-2024 05:31:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/app.php on line 16
+[18-Oct-2024 05:31:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/logging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/logging.php on line 20
+[18-Oct-2024 05:31:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/sanctum.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/sanctum.php on line 16
+[18-Oct-2024 05:31:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/services.php on line 18
+[18-Oct-2024 05:31:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/queue.php on line 16
+[18-Oct-2024 05:31:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/services.php on line 18
+[18-Oct-2024 05:31:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/shopping_cart.php:11
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/shopping_cart.php on line 11
+[18-Oct-2024 05:31:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/app.php on line 16
+[18-Oct-2024 05:31:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/mail.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/mail.php on line 16
+[18-Oct-2024 05:31:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/mail.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/mail.php on line 16
+[18-Oct-2024 05:31:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/app.php on line 16
+[18-Oct-2024 05:31:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/logging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/logging.php on line 20
+[18-Oct-2024 05:31:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/queue.php on line 16
+[18-Oct-2024 05:31:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/logging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/logging.php on line 20
+[18-Oct-2024 05:31:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/session.php on line 21
+[18-Oct-2024 05:31:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/hashing.php:32
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/hashing.php on line 32
+[18-Oct-2024 05:31:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/sanctum.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/sanctum.php on line 16
+[18-Oct-2024 05:31:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/queue.php on line 16
+[18-Oct-2024 05:31:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/session.php on line 21
+[18-Oct-2024 05:31:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/hashing.php:32
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/hashing.php on line 32
+[18-Oct-2024 05:31:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/services.php on line 18
+[18-Oct-2024 05:31:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/services.php on line 18
+[18-Oct-2024 05:31:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/broadcasting.php on line 18
+[18-Oct-2024 05:31:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/mail.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/mail.php on line 16
+[18-Oct-2024 05:31:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/mail.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/mail.php on line 16
+[18-Oct-2024 05:31:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/queue.php on line 16
+[18-Oct-2024 05:31:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/cookie-consent.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/cookie-consent.php on line 12
+[18-Oct-2024 05:31:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/session.php on line 21
+[18-Oct-2024 05:31:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/logging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/logging.php on line 20
+[18-Oct-2024 05:31:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/session.php on line 21
+[18-Oct-2024 05:31:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/hashing.php:32
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/hashing.php on line 32
+[18-Oct-2024 05:31:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/services.php on line 18
+[18-Oct-2024 05:31:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/logging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/logging.php on line 20
+[18-Oct-2024 05:31:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/hashing.php:32
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/hashing.php on line 32
+[18-Oct-2024 05:31:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/broadcasting.php on line 18
+[18-Oct-2024 05:31:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/cookie-consent.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/cookie-consent.php on line 12
+[18-Oct-2024 05:31:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/session.php on line 21
+[18-Oct-2024 05:31:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/hashing.php:32
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/hashing.php on line 32
+[18-Oct-2024 05:31:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/maxen/public_html/core/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/config/session.php on line 21

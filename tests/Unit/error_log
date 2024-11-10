@@ -1,0 +1,28 @@
+[18-Oct-2024 05:31:27 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home1/maxen/public_html/core/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/tests/Unit/ExampleTest.php on line 7
+[18-Oct-2024 05:31:36 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home1/maxen/public_html/core/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/tests/Unit/ExampleTest.php on line 7
+[18-Oct-2024 05:31:36 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home1/maxen/public_html/core/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/tests/Unit/ExampleTest.php on line 7
+[18-Oct-2024 05:31:37 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home1/maxen/public_html/core/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/tests/Unit/ExampleTest.php on line 7
+[18-Oct-2024 05:31:37 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home1/maxen/public_html/core/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/tests/Unit/ExampleTest.php on line 7
+[18-Oct-2024 05:31:38 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home1/maxen/public_html/core/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/tests/Unit/ExampleTest.php on line 7
+[18-Oct-2024 05:31:38 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home1/maxen/public_html/core/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home1/maxen/public_html/core/tests/Unit/ExampleTest.php on line 7

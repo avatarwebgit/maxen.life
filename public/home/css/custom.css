@@ -1,0 +1,321 @@
+#dsn-hero-parallax-title img{
+    position: relative;
+    right: 4.1%;
+    z-index: 99;
+    width: 94%;
+
+
+
+}
+
+@media (max-width:768px){
+    #dsn-hero-parallax-title img{
+    position: fixed;
+
+
+
+
+}
+}
+.copyright svg{
+    width: 32px;
+}
+.resize-img{
+    transform: scale(.089);
+
+    top: 4%;
+    left: -45%;
+
+
+
+
+}
+.site-header .dsn-title-menu{
+    font-size: 16px !important;
+}
+.site-header input{
+    background: transparent;
+    border: 1px solid #000;
+    border-radius: 21px;
+    width: 101px;
+    font-size: 15px;
+    padding: 2px 12px;
+    text-align: left;
+    color: #000 !important;
+}
+.site-header input::placeholder{
+
+    color: #000 !important;
+    font-weight: bold;
+}
+.change-lang{
+    display: flex;
+    justify-content: space-between;
+}
+.change-lang p{
+    margin-bottom: 0 !important;
+    border-bottom: none;
+
+
+}
+.change-lang-btn{
+    width: 100px;
+    background: transparent;
+    border: 1px solid #000;
+    margin-left: 17px;
+    padding: 2px 12px;
+    border-radius: 21px;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    transition: all ease .4s;
+    height: 28px;
+}
+.change-lang-btn .divider{
+    height: 1px ;
+    transition: all ease .4s;
+    width: 66%;
+    background:#000;
+
+}
+
+.animate-change-lang-btn .divider{
+
+    background:#fff;
+
+}
+.animate-change-lang-btn{
+   
+    background: transparent;
+    border: 1px solid #fff;
+    margin-left: 17px;
+    padding: 2px 12px;
+
+    font-size: 15px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    height: 41px;
+}
+.animate-change-lang-btn .divider{
+    width: 91%;
+}
+.animate-change-lang-btn .divider:nth-child(1){
+    transform: rotate(20deg) translate(4px, 8px);
+}
+.animate-change-lang-btn .divider:nth-child(2){
+    transform: rotate(-20deg) translate(4px, -8px);
+}
+.intro-about{
+    height: 70vh;
+}
+.intro-about .row{
+    padding: 0 6% !important;
+
+}
+.row-custom{
+    padding: 0 6% !important;
+}
+.fs-2x{
+    font-size: 22px;
+}
+.title-section-product > p{
+    font-size: 45px;
+    color: #000 !important;
+    align-content: center;
+}
+.title-section-product h1{
+    font-size: 75px;
+}
+.title-section-product h1 p{
+
+    font-weight: 200;
+    display: inline-block
+}
+
+.product-title h3 {
+    color: #fff !important;
+    font-size: 75px ;
+    font-weight: 400 !important;
+}
+.product-item .product-banner{
+    position: relative;
+}
+.product-item .product-title{
+ 
+}
+.product-item .product-show{
+
+    border: 1px solid #fff;
+    font-size: 16px;
+    color: #fff !important;
+    padding: 10px 14px;
+    width: fit-content;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 22px;
+}
+.product-slider .slick-slide{
+    margin: 0 20px;
+}
+.our-work h2{
+    font-size: 335px;
+    font-weight: 100;
+}
+.des-about{
+    color: #000 !important;
+    line-height:1.2;
+    text-align: justify;
+}
+.footer-title-2{
+    color: #000 !important;
+    font-weight: 500;
+}
+.divider-line-footer{
+    background-color:#000 !important ;
+    height: 1px;
+}
+footer form button{
+    color: #fff !important;
+    background-color: #000 !important;
+    padding: 20px;
+
+}
+footer form p{
+    color: #0e0e0d;
+    font-size: 18px;
+}
+footer form input{
+    border-radius: 20px;
+    border: 1px solid #c3c3c3;
+    padding: 16px 21px;
+}
+footer form input::placeholder {
+    font-size: 17px;
+    color: #000 !important;
+}
+
+footer form button{
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.intro-about h1{
+    font-size: 45px;
+}
+.main-logo p {
+    font-size:35px;
+}
+@media (max-width:700px){
+    .our-work h2{
+        font-size:63px !important;
+    }
+    .des-about{
+        line-height:1.6 !important;
+    }
+    .row-custom {
+        padding: 0 3% !important;
+    }
+    .title-section-product > p{
+        font-size:20px !important;
+    }
+    .title-section-product h1 {
+        font-size: 33px !important;
+    }
+    .title-section-product{
+        padding:0 7.6% !important;
+    }
+    .product-title h3{
+        font-size:28px !important;
+    }
+    .product-item .product-show {
+
+        border: 1px solid #fff;
+        font-size: 12px !important;
+        color: #fff !important;
+        padding: 10px 13px !important;
+        width: fit-content !important;
+        text-align: right;
+        cursor: pointer;
+        border-radius: 22px;
+    }
+    .product-title{
+        min-height: unset !important;
+    }
+    .details-banner{
+        min-height:unset !important;
+        bottom:6% !important;
+    }
+    .service-content{
+        margin-top:10px !important;
+        margin-bottom:10px !important;
+    }
+    .intro-about h1 {
+        font-size: 20px;
+        margin-bottom:20px;
+    }
+
+    .intro-about span {
+        font-size: 13px !important;
+    }
+    .intro-about {
+        margin-top:20px !important;
+        margin-bottom:20px !important;
+        height:auto !important;
+    }
+    .justify-sm-normal {
+        justify-content: normal !important;
+
+    }
+    #dsn-hero-parallax-title img{
+        transform: scale(.94) ;
+        left: 5% ;
+        top: 10% ;
+
+
+
+    }
+    header .header-master{
+        height:100vh !important;
+    }
+    .main-logo p {
+        font-size:23px;
+    }
+
+    .site-header .extend-container .main-navigation ul.extend-container li{
+
+        color:#fff !important;
+    }
+}
+
+body{
+    overflow-x:hidden !important;
+}
+#dsn-hero-parallax-title p{
+    position: fixed;
+        top: 7%;
+    color: #000;
+    font-size: 19px;
+    left: 8%;
+    font-weight: 600;
+}
+@media (max-width:992px){
+    .menu-sidebar .change-lang-btn {
+    display:none !important;
+}
+}
+
+
+@media (max-width:768px){
+        #dsn-hero-parallax-title img{
+        transform: scale(.94) !important;
+        left: 5% !important;
+        top: 12% !important;
+
+
+
+    }
+}
