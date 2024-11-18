@@ -19,7 +19,7 @@
 />
 <!-- شامل کردن JS برای Swiper -->
     <style>
-    
+
     .details-banner{
         position: absolute;
   bottom: -5%;
@@ -33,22 +33,22 @@
     .product-text{
         color:#fff;
     }
-    
- 
-    
-    
 
-    
+
+
+
+
+
     .margin-0{
         margin:0 !important;
     }
     .padding-0{
         padding:0;
     }
-    
-    
+
+
     @media (min-width:997px){
-  
+
         .log-container{
             max-width:88% !important;position:absolute;    top: 0;
     left: 5%;
@@ -82,7 +82,7 @@
 
 .swiper-slide {
 
- 
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -229,13 +229,13 @@ font-size:16px;
 
 .tooltip-service,.tooltip-support{
     font-size:40px;
-    
+
 }
 
 @keyframes fadeIn {
   0% {
     opacity: 0;
-    visibility: visibale; 
+    visibility: visibale;
 
   }
   50% {
@@ -263,8 +263,8 @@ font-size:16px;
         .old_price {
             font-size: 17px;
         }
-        
-  
+
+
 
 
         @media screen and (max-width:890px){
@@ -343,7 +343,7 @@ font-size:16px;
         .detail-slider{
             bottom: 0;
             z-index: 99999;
-        
+
             padding: 0 5%;
                 padding-bottom:60px;
             position: absolute;
@@ -355,7 +355,7 @@ font-size:16px;
             text-align: left;
             color: #000;
         }
-        
+
         .text-slider{
             display:flex;
             align-items:flex-end;
@@ -383,7 +383,7 @@ font-size:16px;
             line-height:75px;
             text-transform: uppercase;
         }
-        
+
         .our-work h2{
             font-size:228px;
         }
@@ -396,13 +396,13 @@ font-size:16px;
     font-size:38px;
     word-spacing: -8px;
         }
-        
+
                 .intro-about h1{
             text-align:justify;
             font-size:18px !important;
             line-height:27px !important;
         }
-        
+
 }
        .swiper-banner .swiper-wrapper{
             direction:ltr !important;
@@ -411,19 +411,19 @@ font-size:16px;
     align-items:flex-end;
 }
 
-        
-        
-        
-        
+
+
+
+
         @media (max-width:992px) {
             .intro-about h1{
                 text-align:left !important;
             }
         }
     </style>
-    
+
     @if(app()->getLocale() == 'en')
-    
+
     <style>
     @media (max-width:1480px){
             .text-slider h2{
@@ -435,13 +435,13 @@ font-size:16px;
             left:-80px;
         }
     </style>
-    
-    
+
+
     @endif
-    
-    
+
+
     @if(app()->getLocale() == 'fa')
-    
+
     <style>
     .justify-end-rtl{
         justify-content:end;
@@ -453,15 +453,15 @@ font-size:16px;
             text-align:right !important;
 
         }
-        
+
         .swiper-banner .swiper-wrapper{
             direction:rtl !important;
         }
-        
-        
-        
- 
-        
+
+
+
+
+
         @media (min-width:1480px){
     .intro-about h1{
         line-height:103px !important;
@@ -469,11 +469,11 @@ font-size:16px;
 }
 
     </style>
-    
+
     @endif
-    
+
     <style>
-    
+
     .text-dark{
         color:#000 !important;
     }
@@ -487,7 +487,7 @@ font-size:16px;
         .site-header .inner-header .main-logo img{
             height:25px !important;
         }
-        
+
         .intro-about h1{
                 font-size: 20px !important;
     line-height: 33px !important;
@@ -518,8 +518,8 @@ html {
 
 
 @media (min-width:412px) and (max-width:455px){
-    
-    
+
+
     .site-header.has-scroll-header{
         padding:30px 15px !important;
     }
@@ -530,8 +530,8 @@ html {
 }
 
 @media (min-width:455px){
-    
-    
+
+
     .site-header.has-scroll-header{
         padding:35px 7.6% !important;
     }
@@ -544,7 +544,7 @@ html {
 
 @media (min-width:455px) {
             #dsn-hero-parallax-title img.has-scroll-header{
-        
+
         transform:scale(0.5) !important;
         left:-21% !important;
         top:0% !important;
@@ -553,7 +553,7 @@ html {
 
 @media (min-width:455px) {
             #dsn-hero-parallax-title img.has-scroll-header{
-        
+
         transform:scale(0.4) !important;
         left:-21% !important;
     }
@@ -561,11 +561,11 @@ html {
 
 @media (min-width:625px) and (max-width:768px) {
             #dsn-hero-parallax-title img.has-scroll-header{
-        
+
    top:-0.7% !important;
     }
-    
-    
+
+
 }
 
 html,body{
@@ -652,7 +652,7 @@ html,body{
 
 
     </style>
-    
+
     @if(app()->getLocale() == 'en')
     <style>
             @media (min-width:1120px) and (max-width:1480px){
@@ -664,8 +664,8 @@ html,body{
             padding:40px 0;
         }
     }
-    
-    
+
+
     .text-en-mobile{
             position: absolute;
     left: 5%;
@@ -695,11 +695,11 @@ function changeLang(url,event)
 {
      event.stopPropagation();
      window.location.href = url;
-    
+
 }
 
     let rtl = {{app()->getLocale() == 'fa' ? 1 : 0}};
-    
+
     if(rtl){
                 var swiper = new Swiper('.swiper-container', {
 
@@ -724,7 +724,7 @@ function changeLang(url,event)
   }
 
     });
-    
+
     }else{
                 var swiper = new Swiper('.swiper-container', {
 
@@ -749,10 +749,10 @@ function changeLang(url,event)
   }
 
     });
-    
+
     }
-    
-    
+
+
     if(rtl){
            var swiper = new Swiper('.swiper-banner', {
 
@@ -767,19 +767,19 @@ function changeLang(url,event)
       updateSelectedSlide(this);
     },
   },
-  
-     
+
+
 
 
     });
-    
+
  // تابع برای بروزرسانی آیتم انتخاب شده
 function updateSelectedSlide(swiper) {
   // حذف کلاس 'selected' از همه آیتم‌ها
   swiper.slides.forEach(slide => {
     slide.classList.remove('selected');
   });
-  
+
   // اضافه کردن کلاس 'selected' به آخرین آیتم
   const lastSlide = swiper.slides[swiper.slides.length - 1];
   lastSlide.classList.add('selected');
@@ -790,22 +790,22 @@ function updateSelectedSlide(swiper) {
          slidesPerView: 1,
       spaceBetween:20,
       rtl:false
-     
+
 
 
     });
     }
 
- 
+
 try{
         let tag_p = $('.main-logo p');
  var x = window.matchMedia("(max-width: 700px)")
- 
+
  if(!x.matches){
 
 $(document).scroll(function(){
         var distanceFromTop = window.scrollY;
-        
+
         if (distanceFromTop > 70) {
                 $('.site-header').css('border-bottom','1px solid rgb(204, 204, 204)');
                 $('.site-header').css('background-color','rgb(255, 255, 255)');
@@ -835,9 +835,9 @@ $(document).scroll(function(){
 
         if (distanceFromTop >= 110) {
                  console.log(distanceFromTop);
-            
 
-          
+
+
                 $('#dsn-hero-parallax-title img').css('left','-15% !important');
        $('#dsn-hero-parallax-title img').css('transform','scale(0.6) !important');
           $('#dsn-hero-parallax-title img').css('top','1% !important');
@@ -845,47 +845,47 @@ $(document).scroll(function(){
                 $('.main-logo p').css('font-size','12px');
                 $('.main-logo p').css('margin-top','24px');
                 $('.main-logo p').css('transform','translateY(10px)');
-                
-                
+
+
                 $('.site-header').css('border-bottom',' 1px solid rgb(204, 204, 204)');
                 $('.site-header').css('background-color','rgb(255, 255, 255)');
-                
+
                 $('.main-logo .search-toggler').css('display','none');
                                 $('.main-logo .search-toggler-mobile').css('display','none');
                 $('.change-lang-btn-mobile').css('display','none');
-                
-                
+
+
                 $('#dsn-hero-parallax-title p').addClass('has-scroll-header');
                                 $('.site-header').addClass('has-scroll-header');
-                                
+
                                 $('#dsn-hero-parallax-title img').addClass('has-scroll-header');
 
-                                
-                                
 
-          
+
+
+
         }else{
                   $('.main-logo p').css('font-size','23px');
                    $('.main-logo p').css('margin-top','0');
                               $('.main-logo p').css('transform','translateY(0)');
-                              
-                              
+
+
                                               $('#dsn-hero-parallax-title img').css('left','5%');
        $('#dsn-hero-parallax-title img').css('transform','scale(0.94)');
           $('#dsn-hero-parallax-title img').css('top','10%');
-          
-          
+
+
                     $('.main-logo .search-toggler').css('display','block');
                                         $('.main-logo .search-toggler-mobile').css('display','block');
                 $('.change-lang-btn-mobile').css('display','block');
                                 $('.site-header').css('border-bottom','none');
                 $('.site-header').css('background-color','transparent');
-                
-                
+
+
                                $('#dsn-hero-parallax-title p').removeClass('has-scroll-header');
                                 $('.site-header').removeClass('has-scroll-header');
                                  $('#dsn-hero-parallax-title img').removeClass('has-scroll-header');
-                              
+
 
         }
 
@@ -916,7 +916,7 @@ $(document).scroll(function(){
             $('.products_category').addClass('d-none');
             $('.cat_' + cat_id).removeClass('d-none');
         }
-        
+
         $(function () {
   $('[data-toggle="tooltip"]').tooltip()
 })
@@ -928,7 +928,7 @@ $(document).scroll(function(){
 @section('content')
     <header class="section-scroll" id="text-mobile-mobile" data-dsn-header="parallax">
         <div class="header-master">
-                      
+
             <div class="p-absolute w-100 h-100 over-hidden before-z-index" >
                 <img  class="cover-bg-img p-relative  " src="{{ imageExist( env('SLIDER_IMAGES_UPLOAD_PATH'),$sliders[0]->image ) }}" alt="" />
                 <div  class="container log-container  h-100">
@@ -938,16 +938,16 @@ $(document).scroll(function(){
                     Lifestyle Solution
                 </p>
                         <img src="{{ imageExist(env('LOGO_UPLOAD_PATH'),$setting->image) }}">
-                        
+
                     </div>
- 
+
                 </div>
-                
-                
-   
+
+
+
             </div>
-            
-            
+
+
 
 
                 <div class="w-100 d-none row position-absolute d-xl-flex justify-content-between detail-slider">
@@ -957,7 +957,7 @@ $(document).scroll(function(){
                  {{app()->getLocale() == 'en' ?  $sliders[0]->title_en : $sliders[0]->title}}
                         </h2>
                     </div>
-                    
+
                      <div style="align-items: flex-end !important" class="col-4 d-flex flex-column justify-content-end  align-items-end">
 
 <div role="dialog" aria-labelledby="lcc-modal-alert-label" aria-describedby="lcc-modal-alert-desc" aria-modal="true" class="lcc-modal lcc-modal--alert js-lcc-modal d-flex js-lcc-modal-alert" style="display: none; "
@@ -971,7 +971,7 @@ $(document).scroll(function(){
      data-ignored-paths="{{ implode(',', config('cookie-consent.ignored_paths', [])) }}"
 >
     <div class="lcc-modal__actions d-flex align-items-center">
-        
+
                 <button style="margin-top:0" type="button" class="lcc-button lcc-button--link js-lcc-essentials">
 <img width="70" height="70" src="{{asset('home/img/minues.svg')}}">
         </button>
@@ -1022,13 +1022,13 @@ $(document).scroll(function(){
 </svg>
 
                     </div>
-                    
 
 
 
 
-                   
-                    
+
+
+
                     <div class="col-3 d-flex justify-end-rtl align-item-end text-left">
 
 <img width="320" src="{{asset('home/img/earth.svg')}}">
@@ -1095,10 +1095,10 @@ $(document).scroll(function(){
   <path d="M6,17 L6,11 L4.5,11 C3.67157288,11 3,11.6715729 3,12.5 L3,15.5 C3,16.3284271 3.67157288,17 4.5,17 L6,17 Z M13.9146471,20 L16.0584816,20 C16.7041272,20 17.2773354,19.5868549 17.4815065,18.9743416 L17.7094306,18.2905694 C17.7432317,18.1891661 17.7850711,18.0921054 17.8340988,18 L17.5,18 C17.2238576,18 17,17.7761424 17,17.5 L17,10.5 C17,10.2238576 17.2238576,10 17.5,10 L18,10 L18,8.98439023 C18,5.67068173 15.3137085,2.98439023 12,2.98439023 C8.6862915,2.98439023 6,5.67068173 6,8.98439023 L6,10 L6.5,10 C6.77614237,10 7,10.2238576 7,10.5 L7,17.5 C7,17.7761424 6.77614237,18 6.5,18 L4.5,18 C3.11928813,18 2,16.8807119 2,15.5 L2,12.5 C2,11.1192881 3.11928813,10 4.5,10 L5,10 L5,8.98439023 C5,5.11839698 8.13400675,1.98439023 12,1.98439023 C15.8659932,1.98439023 19,5.11839698 19,8.98439023 L19,10 L19.5,10 C20.8807119,10 22,11.1192881 22,12.5 L22,15.5 C22,16.8807119 20.8807119,18 19.5,18 C19.1180249,18 18.778905,18.2444238 18.6581139,18.6067972 L18.4301898,19.2905694 C18.0899047,20.3114248 17.1345576,21 16.0584816,21 L13.9146471,21 C13.7087289,21.5825962 13.1531094,22 12.5,22 L11.5,22 C10.6715729,22 10,21.3284271 10,20.5 C10,19.6715729 10.6715729,19 11.5,19 L12.5,19 C13.1531094,19 13.7087289,19.4174038 13.9146471,20 L13.9146471,20 Z M18,11 L18,17 L19.5,17 C20.3284271,17 21,16.3284271 21,15.5 L21,12.5 C21,11.6715729 20.3284271,11 19.5,11 L18,11 Z M11,20.5 C11,20.7761424 11.2238576,21 11.5,21 L12.5,21 C12.7761424,21 13,20.7761424 13,20.5 C13,20.2238576 12.7761424,20 12.5,20 L11.5,20 C11.2238576,20 11,20.2238576 11,20.5 Z"/>
 </svg>
 
-                                
+
                             </a>
-                            
-   
+
+
                         </div>
                     </div>
                 </div>
@@ -1117,12 +1117,12 @@ $(document).scroll(function(){
           </div>
 
                 <div class="row margin-0 row-custom swiper-banner">
-                          
-           
+
+
                 <div class="swiper-wrapper">
-                    
-                    
-               
+
+
+
                     @foreach($banners as $banner)
                         <div  class="col-12 mb-5 swiper-slide service-content ">
                             <div  class="product-item">
@@ -1137,22 +1137,26 @@ $(document).scroll(function(){
 
 
                                 </div>
-                                <div class="product-text mb-2 mb-md-3">
-                                    {{app()->getLocale() == 'fa' ? $banner->text: $banner->text_en}}
-                                </div>
+                                    @if(($banner->text =! null and app()->getLocale() =='fa') or ($banner->text_en =! null and app()->getLocale() =='en'))
+                                        <div class="product-text mb-2 mb-md-3">
+                                            {{app()->getLocale() == 'fa' ? $banner->text: $banner->text_en}}
+                                        </div>
+                                    @endif
+                                    @if(($banner->button_text =! null and app()->getLocale() =='fa') or ($banner->button_text_en =! null and app()->getLocale() =='en'))
                                 <div class="product-show mb-2 mb-md-3">
                                     <a href="{{$banner->button_link}}" class=" text-white text-center">
                                         {{app()->getLocale() == 'fa' ? $banner->button_text: $banner->button_text_en}}
                                     </a>
                                 </div>
+                                    @endif
                                 </div>
                             </div>
                         </div>
                     @endforeach
-                    
+
                      </div>
-                     
-                
+
+
 
 
 
@@ -1163,7 +1167,7 @@ $(document).scroll(function(){
 
 @endif
 
-   
+
 
         <section class="our-work  section-margin dsn-arrow" data-dsn-col="3">
             <div style="padding: 0 7.6%" class=" text-center">
@@ -1179,7 +1183,7 @@ $(document).scroll(function(){
             <!--                    <a href="{{$new->link}}">-->
             <!--                         <img src="{{imageExist(env('SLIDER_IMAGES_UPLOAD_PATH'),$new->image)}}">-->
             <!--                    </a>-->
-                               
+
             <!--                </div>-->
             <!--            @endforeach-->
 
@@ -1216,7 +1220,7 @@ $(document).scroll(function(){
                 </div>
             </div>
         </section>
-        
+
    @if(count($banners_bottom)> 0)
      <section class="service service-3 section-margin dsn-animate" data-dsn-animate="section">
 

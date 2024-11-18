@@ -203,14 +203,19 @@ if (!function_exists('convert')) {
 if (!function_exists('imageExist')) {
     function imageExist($env, $image)
     {
-        $path = public_path($env . $image);
-
-        if (file_exists($path) and !is_dir($path)) {
-            $src = url($env . $image);
+        // اصلاح مسیر با حذف اسلش های اضافی و ترکیب صحیح مسیر
+        $cleanEnv = trim($env, '/');
+        $cleanImage = trim($image, '/');
+        $relativePath = $cleanEnv . '/' . $cleanImage;
+        
+        $path = public_path($relativePath);
+    
+        if (file_exists($path) && !is_dir($path)) {
+            // استفاده از asset برای ساخت URL کامل
+            return asset($relativePath);
         } else {
-            $src = url('no_image.png');
+            return asset('no_image.png');
         }
-        return $src;
     }
 }
 

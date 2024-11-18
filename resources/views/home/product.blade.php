@@ -92,22 +92,22 @@ font-size:16px;
           color:#fff;
  }
   .tooltip-service:hover svg{
-   
+
           fill:#fff;
  }
   .tooltip-support:hover svg{
-   
+
            fill:#fff;
  }
 .tooltip-service,.tooltip-support{
     font-size:40px;
-    
+
 }
 
 @keyframes fadeIn {
   0% {
     opacity: 0;
-    visibility: visibale; 
+    visibility: visibale;
 
   }
   50% {
@@ -771,12 +771,12 @@ width:40%;
                 display: flex;
             }
         }
-        
+
         .margin-0{
             margin:0 !important;
         }
     </style>
-    
+
     <style>
             .arrow-1{
         display:none !important;
@@ -794,11 +794,11 @@ width:40%;
     left: 0 !important;
     top: 4%  !important;
     }
-    
+
     .custom-arrow{
         transition:all .4s ease;
     }
-    
+
     @media (min-width: 768px) {
     .d-md-none {
         display: none !important;
@@ -807,17 +807,17 @@ width:40%;
     </style>
         <style>
             @media (max-width:768px){
-        
+
         #dsn-hero-parallax-title img{
             position:fixed !important;
         }
-    
+
     .site-header{
         padding: 22px 15px !important;
     }
-        
+
     }
-    
+
     .text-title-1,.text-title-2,.text-title-3{
         text-align:left;
         padding-left:8%;
@@ -826,25 +826,25 @@ width:40%;
     margin-top:3%;
 }
     </style>
-    
+
     @if(app()->getLocale() == 'fa')
     <style>
             .text-title-1,.text-title-2,.text-title-3{
         text-align:right !important;
            padding-left:unset !important;
            padding-right:8% !important;
-       
+
     }
     </style>
     @endif
     <style>
             .text-title-1,.text-title-2,.text-title-3{
         text-align:center !important;
-      
+
     }
                    .change-lang-btn-mobile {
     display: none !important;
-}     
+}
 @media (max-width:408px){
            .site-header .inner-header .main-logo {
     width: 120px !important;
@@ -855,6 +855,14 @@ width:40%;
     font-size: 30px !important;
 }
 }
+
+            @media only screen and (min-width: 992px) {
+                .classic-menu .site-header .extend-container .main-navigation ul.extend-container>li {
+
+                    display: inline-block !important;
+
+                }
+            }
     </style>
 @endsection
 @section('script')
@@ -1047,8 +1055,8 @@ width:40%;
                     <div class="col-lg-5 order-lg-1 order-2">
                         <div class="product-title text-center">
                             <h4 class="text-title-1" style="font-weight:500">{{app()->getLocale() == 'fa' ? $product->name : $product->name_en}}
-                           
-                            
+
+
                             </h4>
                             <h1 class="text-title-2" style="font-weight:800">{{app()->getLocale() == 'fa' ? $product->title_1 : $product->title_1_en}}</h1>
                             <h2 class="text-title-3" style="font-weight:500">{{app()->getLocale() == 'fa' ? $product->title_2 : $product->title_2_en}}</h2>
@@ -1067,14 +1075,14 @@ width:40%;
                             </a>
                                                                     @foreach($product->attributes as $item)
                                                                         @if($item->attribute_id == 2 or $item->attribute_id == 46)
-                                                                        
+
                                                                         @if($item->attributeValues($item->value,$item->attribute_id)->image != null)
                                                                                                                                                 <img class="product-brand" src="{{imageExist(env('ATTR_UPLOAD_PATH'),$item->attributeValues($item->value,$item->attribute_id)->image)}}">
 
                                                                         @endif
                                                                         @endif
                                                                     @endforeach
-                           
+
 
 
                         </div>
@@ -1222,18 +1230,18 @@ width:40%;
                                             @else
                                                 {{ app()->getLocale() == 'fa' ? $attribute_values->name : $attribute_values->name_en }}
                                             @endif</span>
-                                           
-              
+
+
                                     </li>
-                                    
-          
-                                  
+
+
+
                                         @endif
                                     @endforeach
 
                                 </ul>
-                                
-    
+
+
                             </div>
                                                                                                                                             <div style="margin-right:auto;top:{{$key==0 ? '10% !important' : ''}}" class=" d-none {{$key==0 ? 'position-arrow' : ''}}  custom-arrow d-lg-flex justify-content-center align-items-center">
                                 <img class="arrow_icon left_icon {{ $key==0 ? 'd-none' : '' }}"
@@ -1244,8 +1252,8 @@ width:40%;
 
 
                         </div>
-                        
-                        
+
+
                             @endforeach
                             @endif
 

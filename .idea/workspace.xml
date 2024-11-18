@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d038b8a7-5228-4307-bc2c-ca6605f3cd1e" name="Default Changelist" comment="" />
+    <list default="true" id="d038b8a7-5228-4307-bc2c-ca6605f3cd1e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/app/helpers.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +26,9 @@
         <option value="CSS File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -197,7 +202,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/xampp/htdocs/maxen/public/admin/upload/files/products/images",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/xampp/htdocs/maxen.life",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -514,6 +520,7 @@
       <workItem from="1720853834593" duration="74000" />
       <workItem from="1720855496891" duration="10026000" />
       <workItem from="1720936942513" duration="9228000" />
+      <workItem from="1731913170920" duration="5000" />
     </task>
     <servers />
   </component>
