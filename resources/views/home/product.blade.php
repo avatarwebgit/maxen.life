@@ -866,7 +866,7 @@ width:40%;
 
 
             @media (min-width: 768px) {
-                .d-md-none {
+                .classic-menu .site-header .extend-container .main-navigation ul.extend-container>li.d-md-none {
                     display: none !important;
                 }
             }
