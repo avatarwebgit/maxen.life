@@ -36,7 +36,7 @@ class SliderController extends Controller
 
             'thumbnail' => null,
 
-
+            'priority' => 1,
             'text' => $request->text,
             'text_en' => $request->text_en,
                'title' => $request->title,
@@ -85,7 +85,8 @@ class SliderController extends Controller
             'image' => $request->has('image') ? $fileNameImage : $slider->image,
 
             'thumbnail' => $request->has('thumbnail') ? $fileNameImage_thumbnail : $slider->thumbnail,
-          'title' => $request->title,
+            'title' => $request->title,
+            'priority' => 1,
             'title_en' => $request->title_en,
             'text' => $request->text,
             'text_en' => $request->text_en,
