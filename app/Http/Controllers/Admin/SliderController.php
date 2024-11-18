@@ -86,7 +86,6 @@ class SliderController extends Controller
 
             'thumbnail' => $request->has('thumbnail') ? $fileNameImage_thumbnail : $slider->thumbnail,
             'title' => $request->title,
-            'priority' => 1,
             'title_en' => $request->title_en,
             'text' => $request->text,
             'text_en' => $request->text_en,
