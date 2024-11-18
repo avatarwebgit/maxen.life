@@ -863,6 +863,13 @@ width:40%;
 
                 }
             }
+
+
+            @media (min-width: 768px) {
+                .d-md-none {
+                    display: none !important;
+                }
+            }
     </style>
 @endsection
 @section('script')
