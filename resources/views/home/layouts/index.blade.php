@@ -47,7 +47,7 @@
             .site-header .inner-header .main-logo .search-toggler,.search-toggler-mobile{
         display:none !important;
     }
-    
+
     .change-lang-btn-mobile{
         display:none;
     }
@@ -84,11 +84,11 @@
     body{
           overflow-x:hidden !important;
     }
-    
+
     .swiper-container{
         overflow-x:hidden;
     }
-  
+
 
 
         .slick-prev{
@@ -117,44 +117,44 @@
         .font-family-Heltiveca{
             font-family: HelveticaNeu !important;
         }
-        
-        
+
+
         @if(!request()->is('/'))
         .lcc-modal{
             display:none !important;
         }
-        
-        
-        
-        
+
+
+
+
         @endif
-        
-        
+
+
         @media (max-width:867px){
-            
+
             .lcc-modal{
                  display:none !important;
             }
-            
+
         }
-        
+
                .arrow_icon {
             width: 20px;
             height: 20px;
         }
-        
+
         .background-color-fff{
             background-color:#fff !important;
         }
-        
+
         .text-close{
             display:none !important;
         }
-        
-        
-        
+
+
+
     </style>
-    
+
     @if(app()->getLocale() == 'fa')
     <style>
         .product-title p:nth-child(2){
@@ -194,19 +194,19 @@
     font-size:18px !Important;
     font-weight:700;
 }
-       .product-title p:nth-child(2){ 
+       .product-title p:nth-child(2){
             font-family:'HelveticaNeu' !important;
         }
-        
-   
+
+
     </style>
     @endif
-    
-    
+
+
 <style>
         @media (min-width:768px){
             .row-md{
-        
+
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
@@ -216,26 +216,26 @@
 
 
     }
-    
-    
 
-    
+
+
+
 
     }
         @media (max-width:768px){
-        
+
         #dsn-hero-parallax-title img{
             position:fixed !important;
         }
-    
+
     .site-header{
         padding: 22px 15px !important;
     }
-        
+
     }
 
 
-    
+
     @media (min-width:992px) and (max-width:1244px){
         .search-toggler{
             display:none;
@@ -244,15 +244,15 @@
             display:none;
         }
     }
-    
-        
+
+
     @media (min-width:992px) and (max-width:1249px){
 
         .change-lang-btn ~ .user-no-selection{
             display:none;
         }
     }
-    
+
         @media (min-width:992px) and (max-width:1155px){
         .main-navigation ul li{
             display:none !important;
@@ -292,7 +292,7 @@
     }
     @media (min-width: 1420px) and (max-width: 1480px) {
   .intro-about h1 {
-    font-size: 69px !important; 
+    font-size: 69px !important;
     line-height: 86px !important;
   }
 }
@@ -401,7 +401,7 @@ width: 60vw;
 }
 
  .axil-contact-info-inner span.title {
-     
+
     font-size: 25px;
     line-height: 1;
     color: #000;
@@ -456,6 +456,17 @@ justify-content:start;
 <style>
 
 </style>
+
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YWV6GDFPM2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-YWV6GDFPM2');
+    </script>
 </head>
 
 <body style="overflow:hidden !important" class=" dsn-ajax classic-menu v-light">
@@ -488,7 +499,7 @@ justify-content:start;
             <div class="overlay-layer"></div>
             <div class="search-form">
                 <form method="get" action="{{ route('home.product.search') }}">
-                            
+
                     <div class="form-group">
                         <fieldset>
                             <input type="search" class="form-control" name="search"  placeholder="{{__('Search')}}  ...." required="">
@@ -507,13 +518,13 @@ justify-content:start;
             <div class="overlay-layer"></div>
             <div class="search-form">
                 <form method="get" action="{{ route('home.product.search') }}">
-                            
+
                     <div style="padding:0 !important" class="form-group col-12">
-                        
+
                             <input type="search" class="form-control" name="search"  placeholder="{{__('Search')}}  ...." required="">
                             <input type="submit" value="{{__('Search')}}" class="theme-btn-mobile form-control">
-                     
-                        
+
+
                     </div>
 
                 </form>
@@ -521,9 +532,9 @@ justify-content:start;
         </div>
     </div>
 <div class="magnic-popup">
-   
- 
-    
+
+
+
 </div>
 
     <div id="overlay-sidebar" class="hidden-sidebar"></div>
@@ -535,7 +546,7 @@ justify-content:start;
                     <ul class="main-navigation">
                           @php
                             $menu_sidebar = \App\Models\Menu::whereIn('is_show_header',[0,2])->orderBy('sort')->get();
-                      
+
                           @endphp
                           @foreach($menu_sidebar as $menu)
                                   @if($menu->type == 'blog')
@@ -545,25 +556,25 @@ justify-content:start;
                             ?>
                     <a href="{{route('home.articles')}}"  >
                         <span >  {{app()->getLocale() == 'fa' ? $menu->name : $menu->name_en}} </span>
-                   
+
                     </a>
                     @if(count($categories_article) > 0)
                     <ul>
                         @foreach($categories_article as $category)
-                  
+
                         <li>
                             <a href="{{ route('home.articles.category',['category'=>$category->alias]) }}"><span >{{app()->getLocale() == 'en' ? $category->title_en : $category->title }}</span></a>
                         </li>
                         @endforeach
-             
+
                     </ul>
                     @endif
 
                 </li>
                                   @endif
-                                  
+
              @if($menu->type == 'product')
-                                               
+
                 <li >
                     <?php
                        $categories = \App\Models\Category::where('parent_id', 0)->where('is_active',1)->orderby('priority','asc')->get();
@@ -575,24 +586,24 @@ justify-content:start;
                     @if(count($categories) > 0)
                     <ul>
                            @foreach($categories as $category)
-                  
+
                         <li>
                             <a href="{{route('home.product_categories',['category'=>$category->alias ])}}"><span >{{app()->getLocale() == 'en' ? $category->name_en : $category->name }}</span></a>
                         </li>
                         @endforeach
-             
+
                     </ul>
                     @endif
 
                 </li>
               @endif
-              
-              
+
+
                                           @if($menu->type == 'link')
-                                          
+
                                             <li >
-             
-            
+
+
                     <a href="{{$menu->link}}"  >
                         <span >  {{app()->getLocale() == 'fa' ? $menu->name : $menu->name_en}} </span>
                         <span ></span>
@@ -604,51 +615,51 @@ justify-content:start;
                         <li>
                             <a href="{{$menu->link}}"><span >{{app()->getLocale() == 'fa' ? $menu->name : $menu->name_en}}</span></a>
                         </li>
-                        
+
                         @endif
-                        
+
                                  @if($menu->type == 'page')
                                                @php
-                             
+
                              $page = \App\Models\Page::where('id', $menu->page_id)->first();
-                             
+
                              @endphp
                         <li>
                             <a href="{{route('home.page',['page'=>$page->alias])}}"><span >{{app()->getLocale() == 'fa' ? $menu->name : $menu->name_en}}</span></a>
                         </li>
-                        
+
                         @endif
-                        
+
                         @endforeach
-             
+
                     </ul>
                     @endif
 
                 </li>
-                                          
+
                                           @endif
-                                          
-                                          
+
+
                         @if($menu->type == 'page')
                              @php
-                             
+
                              $page = \App\Models\Page::where('id', $menu->page_id)->first();
-                             
+
                              @endphp
-                             
+
                                  <li >
                     <a href="{{route('home.page',['page'=>$page->alias])}}" >
                         <span >   {{app()->getLocale() == 'fa' ? $menu->name : $menu->name_en}} </span>
-                      
+
                     </a>
 
 
                 </li>
-                             
-                             
+
+
                              @endif
-              
-                                  
+
+
                                   @endforeach
                     </ul>
                 </div>
@@ -664,11 +675,11 @@ justify-content:start;
 						<img src="{{ imageExist(env('LOGO_UPLOAD_PATH'),$setting->image) }}">
                                 <span class="title"> {{__('Address')}}</span>
                                 <p> {{ app()->getLocale() == 'fa' ? $setting->address : $setting->address_en }}  </p>
-                 
+
                             </address>
                             <address class="address">
                                 <span class="title">{{__('Contact Us')}} </span>
-                  
+
                                 <p><a class="tel" href="tel:{{$setting->tel}}"><i class="fas fa-phone"></i>
                                         {{$setting->tel}}</a></p>
 
@@ -770,7 +781,7 @@ justify-content:start;
 
 
 
-   
+
 
     function AddToCompareList(event, productId) {
         event.preventDefault();
@@ -863,25 +874,25 @@ justify-content:start;
                 if (msg[0] === 'ok') {
                     let count = msg[1];
                     console.log(msg);
-      
+
                     $('#compare_count').text(count);
                     $('.magnic-popup').html(msg[2]);
                      $('.magnic-popup').css('opacity','1');
                          $('.magnic-popup').css('visibility','inherit');
                     $('.magnic-popup').css('left','1%');
-                   
+
 setTimeout(function(){
       $('.magnic-popup').css('opacity','0');
-         
+
                     $('.magnic-popup').css('left','-13%');
-                    
+
                      $('.magnic-popup').html(' ');
 },5000);
 
               if(count > 1){
                         window.location.href="{{route('home.compare')}}";
                     }
-                    
+
                 }
             },
             error: function () {
@@ -898,9 +909,9 @@ setTimeout(function(){
         $('.search-toggler img').addClass('white-img');
         $('.search-toggler').removeClass('search-toggler');
 
-                
+
         $('.change-lang-btn-mobile').toggleClass('d-none');
-        
+
         $('.change-lang-btn-mobile').toggle(function () {
     $(".change-lang-btn-mobile").css({'display':"none !important"});
 }, function () {
@@ -911,8 +922,8 @@ $(".change-lang-btn-mobile").css({'display':"block !important"});});
 
 
     })
-    
-    
+
+
 const element = document.querySelector('.menu-icon');
 
 element.addEventListener('mouseenter', (event) => {
@@ -935,7 +946,7 @@ element.addEventListener('mouseenter', (event) => {
 		$('.close-search,.search-popup .overlay-layer').on('click', function() {
 			$('#search-popup').removeClass('popup-visible');
 		});
-		
+
 				$('#search-popup-mobile .close-search,.search-popup-mobile .overlay-layer').on('click', function() {
 			$('#search-popup-mobile').removeClass('popup-visible');
 		});
@@ -943,12 +954,12 @@ element.addEventListener('mouseenter', (event) => {
     AOS.init({
         once: true // انیمیشن ها فقط یک بار اجرا می شوند
     });
-    
+
 $('.menu-sidebar .change-lang-btn').click(function(){
      const sidebar = document.getElementById('sidebar-right');
     const overlay = document.getElementById('overlay-sidebar');
-    
-    
+
+
     if (!sidebar.classList.contains('active')) {
         sidebar.classList.add('active');
         overlay.style.display = 'block'; // نمایش overlay
@@ -965,7 +976,7 @@ overlay.addEventListener('click', function() {
     overlay.style.display = 'none';
     $('.change-lang-btn').removeClass('animate-change-lang-btn');
 });
-   
+
 
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js" integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
