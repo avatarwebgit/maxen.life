@@ -183,7 +183,34 @@ $setting = \App\Models\Setting::first();
                         <span class="dsn-title-menu">   {{app()->getLocale() == 'fa' ? $menu->name : $menu->name_en}} </span>
                         <span class="dsn-bg-arrow"></span>
                     </a>
+                                     @if(!$menu->children->isEmpty())
+                                         <ul>
 
+                                             @foreach($menu->children as $menu)
+
+                                                 @if($menu->type == 'link')
+                                                     <li>
+                                                         <a href="{{$menu->link}}"><span class="dsn-title-menu">{{app()->getLocale() == 'fa' ? $menu->name : $menu->name_en}} </span></a>
+                                                     </li>
+
+                                                 @endif
+
+                                                 @if($menu->type == 'page')
+                                                     @php
+
+                                                         $page = \App\Models\Page::where('id', $menu->page_id)->first();
+
+                                                     @endphp
+                                                     <li>
+                                                         <a href="{{route('home.page',['page'=>$page->alias])}}"><span class="dsn-title-menu">{{app()->getLocale() == 'fa' ? $menu->name : $menu->name_en}}</span></a>
+                                                     </li>
+
+                                                 @endif
+
+                                             @endforeach
+
+                                         </ul>
+                                     @endif
 
                 </li>
 
