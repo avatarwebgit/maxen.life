@@ -8169,7 +8169,7 @@ header .header-page .title-page:before {
     width: 22px;
     background-repeat: no-repeat;
     background-position: center;
-    
+
 }
 
 @media only screen and (max-width: 991px) {
@@ -10972,7 +10972,7 @@ header .header-master.header-half .social-network-box {
     margin-top:15px;
     position: relative;
 }
-.product-description span{
+.product-description > span{
     position: absolute;
     top: 0;
     font-size:15px !important;
@@ -10985,7 +10985,7 @@ header .header-master.header-half .social-network-box {
 
 .product-title{
     min-height:60px !important;
-    
+
 }
 /*.text-slider{*/
 /*    padding-bottom:40px;*/
@@ -10999,7 +10999,7 @@ header .header-master.header-half .social-network-box {
         display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 .des-slider p{
     font-family: 'HelveticaNeu' !important;
@@ -11076,7 +11076,7 @@ header .header-master.header-half .social-network-box {
     position: absolute;
         width: 50px;
     border-radius: 50%;
-  
+
     right: 25px;
     top: 25px;
     font-size: 22px;
@@ -11086,7 +11086,7 @@ header .header-master.header-half .social-network-box {
 }
 
 .search-popup .close-search img{
-    
+
     width:100%;
 }
 
