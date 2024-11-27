@@ -21,7 +21,7 @@
             background: #eeebeb;
     border-color: #eeebeb;
     }
-    
+
         .card:hover .btn-compare{
             background: #fff;
     border-color: #fff;
@@ -30,8 +30,8 @@
             background: #fff;
     border-color: #fff;
     }
-    
-    
+
+
         .site-header{
     padding:30px 0 !important;
     background:#fff;
@@ -100,22 +100,22 @@ font-size:16px;
           color:#fff;
  }
   .tooltip-service:hover svg{
-   
+
           fill:#fff;
  }
   .tooltip-support:hover svg{
-   
+
            fill:#fff;
  }
 .tooltip-service,.tooltip-support{
     font-size:40px;
-    
+
 }
 
 @keyframes fadeIn {
   0% {
     opacity: 0;
-    visibility: visibale; 
+    visibility: visibale;
 
   }
   50% {
@@ -420,15 +420,15 @@ min-width:150px;
         }
               .product-title  p:nth-child(1){
                   margin-bottom:-10px;
-           
+
             text-align: left;
             font-size: 20px;
             color: #000 !important;
         }
          .product-title  p:nth-child(2) {
-    
+
             text-align: left;
-  
+
         }
 
         .product-title  p:nth-child(2) b{
@@ -447,7 +447,7 @@ min-width:150px;
                            font-size: 25px;
             color: #000 !important;
             text-align: left;
-  
+
         }
         .product-details span {
             font-size: 11px;
@@ -467,7 +467,7 @@ min-width:150px;
 
         .product-brand{
 
-            width: auto !important;
+            width: 45% !important;
     height: 20px !important;
     margin: 0 5px;
 
@@ -483,7 +483,7 @@ min-width:150px;
     justify-content: center;
     align-items: center;
         }
-        
+
                 .show-product{
             color: #000;
             font-size: 12px;
@@ -582,9 +582,9 @@ min-width:150px;
                 display: none;
             }
         }
-        
+
         .loader-filter{
-   display: none; 
+   display: none;
     transition: all ease .3s;
     position: fixed;
     top: 0;
@@ -661,8 +661,8 @@ min-width:150px;
     <style>
 
     @media (min-width: 1200px) {
-        
-        
+
+
     /* استایل‌های Grid در بوت‌استرپ */
 
 .col-xl {
@@ -799,18 +799,18 @@ min-width:150px;
 }
 }
             @media (max-width:768px){
-        
+
         #dsn-hero-parallax-title img{
             position:fixed !important;
         }
-    
+
     .site-header{
         padding: 22px 15px !important;
     }
-        
+
     }
-    
-    
+
+
         @media (max-width:1280px){
         .box-filter {
             width:83% !important;
@@ -827,9 +827,9 @@ min-width:150px;
         }
     }
     </style>
-    
+
     @if(app()->getLocale() == 'en')
-    
+
     <style>
                  .title-section-product > p{
                 margin-left:6% !important;
@@ -840,21 +840,21 @@ min-width:150px;
             }
             }
 
-            
 
-            
+
+
                                     @media (min-width:1440px) {
                                 .title-section-product > p{
                 margin-left:2.5% !important;
             }
             }
-            
+
                                     @media (min-width:1400px) and (max-width:1980px){
                                 .title-section-product > p{
                 margin-left:3.6% !important;
             }
             }
-            
+
                         @media (max-width: 700px) {
 .title-section-product > p {
   margin-left: -1% !important;
@@ -892,12 +892,12 @@ min-width:150px;
   }
 }
     </style>
-    
-    
+
+
     @endif
-    
+
         @if(app()->getLocale() == 'fa')
-    
+
     <style>
                  .title-section-product > p{
                 margin-right:6% !important;
@@ -913,32 +913,32 @@ min-width:150px;
             }
             }
 
-            
 
-            
+
+
                                     @media (min-width:1440px) {
                                 .title-section-product > p{
                 margin-right:2.5% !important;
             }
             }
-            
+
                                     @media (min-width:1400px) and (max-width:1980px){
                                 .title-section-product > p{
                 margin-right:3.6% !important;
             }
             }
-            
+
                           .product-title  p:nth-child(1){
                   margin-bottom:-10px;
-           
+
             text-align: right !important;
             font-size: 16px !important;
             color: #000 !important;
         }
          .product-title  p:nth-child(2) {
-    
+
             text-align: right  !important;
-  
+
         }
 
         .product-title  p:nth-child(2) b{
@@ -959,29 +959,29 @@ min-width:150px;
                            margin-top:10px;
             color: #000 !important;
             text-align: right !important;
-  
+
         }
-        
-        
-        
+
+
+
     </style>
-    
-    
+
+
     @endif
     <style>
                     .box-filter{
                 width:83%;
             }
-            
-            
+
+
             @media (max-width:410px){
                 .site-header .inner-header .main-logo{
                     width:150px !important;
                 }
             }
-            
-            
-            
+
+
+
             @media (max-width: 700px) {
   .title-section-product > p {
     font-size: 38px !important;
@@ -1019,22 +1019,22 @@ min-width:150px;
     }
 }
     </style>
-    
-    
+
+
     <style>
     @media (max-width:575px){
-        
+
                            .product-title  p:nth-child(1){
                   margin-bottom:-10px;
-           
+
             text-align: center !important;
             font-size: 25px !important;
             color: #000 !important;
         }
          .product-title  p:nth-child(2) {
-    
+
             text-align: center  !important;
-  
+
         }
 
         .product-title  p:nth-child(2) b{
@@ -1055,9 +1055,9 @@ min-width:150px;
                            margin-top:10px;
             color: #000 !important;
             text-align: center !important;
-  
+
         }
-        
+
         .product-brand{
             height:40px !important;
         }
@@ -1126,7 +1126,7 @@ $('.loader-filter').show();
                     setTimeout(function(){
                                      $('.loader-filter').hide();
                     },500)
-       
+
                     if (msg[0] === 1) {
                         $('.modal-box-filter').css('display','none');
                         $('#post-data').html(msg[1]);
@@ -1253,7 +1253,7 @@ $('.loader-filter').show();
             <div class="container-fluid">
                 <div class="w-100 px-5  d-lg-none title-section-product mb-3 d-flex  justify-content-lg-between justify-content-center">
                     <button id="myInput" >
-                        
+
                         {{__('FILTERS')}}
 
                         <i class="fas  fa-filter"></i>
@@ -1265,7 +1265,7 @@ $('.loader-filter').show();
 <p class="text-center text-lg-right">تمام محصولات</p>
 @else
        <p style="margin-left:15%;margin-right:0" class="text-center  text-lg-left">
-           
+
            <strong>
                ALL
            </strong>
@@ -1273,8 +1273,8 @@ $('.loader-filter').show();
            </p>
 
 @endif
-                 
-           
+
+
                 </div>
                 <div class="row justify-content-center justify-content-lg-normal">
                     <div id="filter-section" class="col-2 d-none d-lg-flex  justify-contet-center align-items-center flex-column">
@@ -1302,7 +1302,7 @@ $('.loader-filter').show();
 
                         <div id="post-data" class="row">
                             @foreach($products as $product)
-                      
+
                             <div class="col-lg-4 col-sm-6 col-xl-4 col-xxl-3 col-md-4 mb-4">
                                 <div  class="card">
                                     <a href="{{ route('home.product',['alias'=>$product->alias]) }}">
@@ -1312,12 +1312,12 @@ $('.loader-filter').show();
                                     <div class="card-body">
                                         <div class="product-title">
                                             <p>{{app()->getLocale() == 'fa' ? $product->name : $product->name_en}}
-                                            
+
                                             </p>
                                            <p>
-                                               
+
                                                <b>{{app()->getLocale() == 'fa' ? $product->title_1 : $product->title_1_en}} </b>
-                                           </p> 
+                                           </p>
                                             <p>{{app()->getLocale() == 'fa' ? $product->title_2 : $product->title_2_en}}</p>
                                         </div>
                                         <div class="product-details">
@@ -1325,23 +1325,23 @@ $('.loader-filter').show();
                                @if($product->shortDescription != null)
                                             <div class="product-description">
                                                              <span>{{__('Attribute')}}</span>
-                                                {!! $product->shortDescription !!}
+                                                {!! app()->getLocale() == 'fa' ? $product->shortDescription : $product->shortDescription_en !!}
                                             </div>
 @endif
                                         </div>
                                     </div>
                                     <div class="card-footer">
                                       <div class="d-flex mb-4 justify-content-center">
-                                            
+
                                             <a onclick="AddToCompareList(event,{{ $product->id }})" class="btn-compare mr-3  cursor-pointer">
                                            {{__('Compare')}}
                                         </a>
-                                        
+
                                         <a class="show-product cursor-pointer">{{__('More Information')}}</a>
                                       </div>
-                                             
+
                                         @foreach($product->attributes->reverse() as $item)
-                               
+
 @if($item->attribute_id == 2 or $item->attribute_id == 46)
 @if($item->attributeValues($item->value,$item->attribute_id)->image != null)
 <img  class="product-brand" src="{{imageExist(env('ATTR_UPLOAD_PATH'),$item->attributeValues($item->value,$item->attribute_id)->image)}}">
@@ -1349,9 +1349,9 @@ $('.loader-filter').show();
 @endif
 @endforeach
 
-                                        
-                            
-                              
+
+
+
 
                                     </div>
 
@@ -1379,10 +1379,10 @@ $('.loader-filter').show();
   <path d="M6,17 L6,11 L4.5,11 C3.67157288,11 3,11.6715729 3,12.5 L3,15.5 C3,16.3284271 3.67157288,17 4.5,17 L6,17 Z M13.9146471,20 L16.0584816,20 C16.7041272,20 17.2773354,19.5868549 17.4815065,18.9743416 L17.7094306,18.2905694 C17.7432317,18.1891661 17.7850711,18.0921054 17.8340988,18 L17.5,18 C17.2238576,18 17,17.7761424 17,17.5 L17,10.5 C17,10.2238576 17.2238576,10 17.5,10 L18,10 L18,8.98439023 C18,5.67068173 15.3137085,2.98439023 12,2.98439023 C8.6862915,2.98439023 6,5.67068173 6,8.98439023 L6,10 L6.5,10 C6.77614237,10 7,10.2238576 7,10.5 L7,17.5 C7,17.7761424 6.77614237,18 6.5,18 L4.5,18 C3.11928813,18 2,16.8807119 2,15.5 L2,12.5 C2,11.1192881 3.11928813,10 4.5,10 L5,10 L5,8.98439023 C5,5.11839698 8.13400675,1.98439023 12,1.98439023 C15.8659932,1.98439023 19,5.11839698 19,8.98439023 L19,10 L19.5,10 C20.8807119,10 22,11.1192881 22,12.5 L22,15.5 C22,16.8807119 20.8807119,18 19.5,18 C19.1180249,18 18.778905,18.2444238 18.6581139,18.6067972 L18.4301898,19.2905694 C18.0899047,20.3114248 17.1345576,21 16.0584816,21 L13.9146471,21 C13.7087289,21.5825962 13.1531094,22 12.5,22 L11.5,22 C10.6715729,22 10,21.3284271 10,20.5 C10,19.6715729 10.6715729,19 11.5,19 L12.5,19 C13.1531094,19 13.7087289,19.4174038 13.9146471,20 L13.9146471,20 Z M18,11 L18,17 L19.5,17 C20.3284271,17 21,16.3284271 21,15.5 L21,12.5 C21,11.6715729 20.3284271,11 19.5,11 L18,11 Z M11,20.5 C11,20.7761424 11.2238576,21 11.5,21 L12.5,21 C12.7761424,21 13,20.7761424 13,20.5 C13,20.2238576 12.7761424,20 12.5,20 L11.5,20 C11.2238576,20 11,20.2238576 11,20.5 Z"/>
 </svg>
 
-                                
+
                             </a>
-                            
-   
+
+
                         </div>
 
 
@@ -1439,7 +1439,7 @@ $('.loader-filter').show();
             @endforeach
         </div>
     </div>
-    
+
     <div class="loader-filter">
         <div class='loading loading--double'></div>
     </div>

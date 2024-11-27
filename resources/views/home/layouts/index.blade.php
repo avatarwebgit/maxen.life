@@ -451,6 +451,10 @@ justify-content:start;
 .contact-social-share {
     justify-content:start;
 }
+
+.scroll-to-top{
+    display:none;
+}
 </style>
 @endif
 <style>

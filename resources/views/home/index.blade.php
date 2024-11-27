@@ -1127,7 +1127,7 @@ $(document).scroll(function(){
                         <div  class="col-12 mb-5 swiper-slide service-content ">
                             <div  class="product-item">
                                 <div class="product-banner">
-                                    <img src="{{imageExist(env('BANNER_IMAGES_UPLOAD_PATH'),$banner->image)}}">
+                                    <img src="{{imageExist(env('BANNER_IMAGES_UPLOAD_PATH                                    '),$banner->image)}}">
                                 </div>
                                 <div class="details-banner position-absolute">
                                 <div class="product-title mb-2 mb-md-3">
