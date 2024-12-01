@@ -459,6 +459,17 @@ justify-content:start;
 @endif
 <style>
 
+    .icon_fix{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .icon_fix > *{
+        width: 100% !important;
+    }
+    .arrow_icon{
+        margin-top: 2px !important;
+    }
 </style>
 
 

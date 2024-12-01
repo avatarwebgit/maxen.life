@@ -1138,13 +1138,13 @@ $(document).scroll(function(){
 
                                 </div>
                                     @if(($banner->text =! null and app()->getLocale() =='fa') or ($banner->text_en =! null and app()->getLocale() =='en'))
-                                        <div class="product-text mb-2 mb-md-3">
+                                        <div class="product-text mb-2 mb-md-3" style="display: none">
 
                                             {{app()->getLocale() == 'fa' ? $banner->text: $banner->text_en}}
                                         </div>
                                     @endif
                                     @if(($banner->button_text =! null and app()->getLocale() =='fa') or ($banner->button_text_en =! null and app()->getLocale() =='en'))
-                                <div class="product-show mb-2 mb-md-3">
+                                <div class="product-show mb-2 mb-md-3 " style="display: none">
 
                                     <a href="{{$banner->button_link}}" class=" text-white text-center">
                                         {{app()->getLocale() == 'fa' ? $banner->button_text : $banner->button_text_en}}

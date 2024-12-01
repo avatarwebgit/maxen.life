@@ -1212,7 +1212,7 @@ width:40%;
                             @foreach($attribute_Groups as $key=>$attribute_Group)
                         <div style="padding-left:0" onclick="open_tab_group(this,{{ $attribute_Group->id }})" class="col-12 margin-0 row product-attribute">
 
-                            <div style="padding-right:0" class="col-12 d-flex d-lg-block justify-content-between align-items-start col-lg-2">
+                            <div style="padding-right:0" class="col-12 d-flex d-lg-block justify-content-between align-items-center col-lg-2">
 
                                 <p class="title-product">               {{ app()->getLocale() == 'fa' ? $attribute_Group->name :$attribute_Group->name_en }}</p>
                                 <div class=" d-flex d-lg-none ">
@@ -1250,7 +1250,7 @@ width:40%;
 
 
                             </div>
-                                                                                                                                            <div style="margin-right:auto;top:{{$key==0 ? '10% !important' : ''}}" class=" d-none {{$key==0 ? 'position-arrow' : ''}}  custom-arrow d-lg-flex justify-content-center align-items-center">
+                                                                                                                                            <div style="margin-right:auto" class=" d-none {{$key==0 ? 'position-arrow' : ''}}  custom-arrow d-lg-flex justify-content-center align-items-center">
                                 <img class="arrow_icon left_icon {{ $key==0 ? 'd-none' : '' }}"
                                      src="{{ asset('home/img/left.png') }}">
                                 <img class="arrow_icon down_icon {{ $key==0 ? '' : 'd-none' }}"
