@@ -215,13 +215,14 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\maxen.life\public" />
       <recent name="C:\xampp\htdocs\maxen\public\home\js" />
       <recent name="C:\xampp\htdocs\maxen\resources\views\admin\news" />
       <recent name="C:\xampp\htdocs\maxen\resources\views" />
       <recent name="C:\xampp\htdocs\maxen\resources\views\home" />
-      <recent name="C:\xampp\htdocs\maxen\public\home" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\maxen.life\public" />
       <recent name="C:\xampp\htdocs\afra\resources\views\admin\setting\payment" />
       <recent name="C:\xampp\htdocs\oceaano.com\resources\views\home" />
       <recent name="C:\xampp\htdocs\oceaano.com\resources\views\admin\deliveryMethods\post" />
@@ -532,6 +533,11 @@
       <workItem from="1732428353785" duration="1175000" />
       <workItem from="1732445750954" duration="1071000" />
       <workItem from="1732689074337" duration="1406000" />
+      <workItem from="1732710051215" duration="3952000" />
+      <workItem from="1732953853061" duration="102000" />
+      <workItem from="1732956566047" duration="130000" />
+      <workItem from="1732973186315" duration="362000" />
+      <workItem from="1733219634166" duration="95000" />
     </task>
     <servers />
   </component>
