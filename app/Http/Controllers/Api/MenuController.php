@@ -14,7 +14,7 @@ class MenuController extends Controller
         $language = $request->header('Accept-Language', 'en');
 
         // بازیابی منوها
-        $menus = Menu::whereIn('is_show_header',[2.3])->orderBy('sort')->get();
+        $menus = Menu::whereIn('is_show_header',[2,3])->orderBy('sort')->get();
 
         // قالب‌بندی بر اساس زبان
         $result = $menus->map(function ($menu) use ($language) {
