@@ -203,7 +203,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/maxen.life&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/maxen.life/public&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -538,6 +538,9 @@
       <workItem from="1732956566047" duration="130000" />
       <workItem from="1732973186315" duration="362000" />
       <workItem from="1733219634166" duration="95000" />
+      <workItem from="1733229109824" duration="3394000" />
+      <workItem from="1733558629851" duration="2003000" />
+      <workItem from="1733636691949" duration="603000" />
     </task>
     <servers />
   </component>
