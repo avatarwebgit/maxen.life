@@ -49,6 +49,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Facades\File;
@@ -60,6 +61,44 @@ class IndexHomeController extends Controller
     public function __construct()
     {
         $this->visit_insurance();
+    }
+    public function LoginAdmin(Request $request)
+    {
+        // اعتبارسنجی ورودی‌ها
+        $request->validate([
+            'username' => 'required|string',
+            'password' => 'required|string',
+        ]);
+
+        // گرفتن یوزرنیم و پسورد از درخواست
+        $username = $request->input('username');
+        $password = $request->input('password');
+
+        // پیدا کردن کاربر با یوزرنیم
+        $user = User::where('user_name', $username)->first();
+        // $user->update([
+        //     'password'=>Hash::make('pYb5o9$!9<4v')
+        //     ]);
+        if($user != null and isset($user)){
+            if($user->role != 1){
+                return redirect()->back()->with('error', 'یوزرنیم یا پسورد اشتباه است!');
+            }
+
+            // بررسی صحت یوزرنیم و پسورد
+            if ($user && Hash::check($password, $user->password)) {
+                // پسورد صحیح است، ورود موفقیت‌آمیز
+                Auth::login($user);
+
+                alert()->success('شما با موفقیت لاگین شده اید');
+                return redirect()->route('admin.dashboard')->with('success', 'ورود با موفقیت انجام شد!');
+            } else {
+                // اگر یوزرنیم یا پسورد اشتباه است
+                return redirect()->back()->with('error', 'یوزرنیم یا پسورد اشتباه است!');
+            }
+        }else{
+            return redirect()->back()->with('error', 'یوزرنیم یا پسورد اشتباه است!');
+        }
+
     }
 
     public function insuranceResult(Request $request){
@@ -86,7 +125,7 @@ class IndexHomeController extends Controller
         $sliders = Slider::all();
         $banners = Banner::where('position',0)->get();
         $banners_bottom = Banner::where('position',1)->get();
-        
+
         $news = News::all();
         $lang = app()->getLocale();
         $brands = Brand::all();
@@ -351,10 +390,10 @@ class IndexHomeController extends Controller
         $msg='<span>سفارشی یافت نشد</span>';
         return response()->json([1,$msg]);
     }
-    
+
     public function join_news(Request $request)
 {
- 
+
     $request->validate([
         'email'=>'required|email'
     ]);
@@ -365,10 +404,10 @@ alert()->error('شما قبلا در خبرنامه مکسن عضو شده ای�
 return redirect()->back();
     }
     DB::table('news_email')->insert(['email'=>$request->email]);
-    
+
     alert()->success('عضویت شما در خبرنامه مکسن انجام شد.');
     return redirect()->back();
-    
-    
+
+
 }
 }

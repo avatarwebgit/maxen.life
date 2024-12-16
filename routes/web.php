@@ -69,11 +69,11 @@ Route::get('/dashboard', function () {
 })->name('dashboard');
 //Admin
 Route::prefix('admin-panel/management/')
-//    ->middleware('adminAuth')
+    ->middleware('adminAuth')
     ->name('admin.')
     ->group(function () {
-            Route::resource('menus', MenuController::class);
-                   Route::get('contact/page', [SettingController::class, 'contact_edit'])->name('contact.edit');
+        Route::resource('menus', MenuController::class);
+        Route::get('contact/page', [SettingController::class, 'contact_edit'])->name('contact.edit');
         Route::post('contact/page/update', [SettingController::class, 'contact_update'])->name('contact.update');
         Route::resource('attributes', AttributeController::class);
         Route::resource('functionalType', FunctionalTypeController::class);
@@ -155,10 +155,10 @@ Route::prefix('admin-panel/management/')
         Route::put('/pages/{page}/update', [PageController::class, 'update'])->name('pages.update');
         Route::post('/pages/destroy', [PageController::class, 'destroy'])->name('page.destroy');
         //Setting
-        
-     
-        
-        
+
+
+
+
         Route::get('setting/{setting}', [SettingController::class, 'edit'])->name('setting.edit');
         Route::post('setting/{setting}', [SettingController::class, 'update'])->name('setting.update');
         Route::post('priority_show_active}', [SettingController::class, 'priority_show_active'])->name('setting.priority_show_active');
@@ -471,7 +471,7 @@ Route::prefix('profile')
         //role_request درخواست اکانت همکار
         Route::get('/role-request', [UserProfileController::class, 'role_request_index'])->name('profile.role_request.index');
         Route::put('/change_role', [UserProfileController::class, 'change_role'])->name('profile.change_role');
-        
+
 
 
     });
@@ -494,3 +494,7 @@ Route::get('/login', LoginIndex::class)->name('login');
 Route::get('en',[IndexHomeController::class,'en'])->name('en');
 Route::get('fa',[IndexHomeController::class,'fa'])->name('fa');
 Route::post('maxen/news/join-user', [IndexHomeController::class, 'join_news'])->name('join.news');
+Route::get('/login', function () {
+    return view('login');
+})->name('login');
+Route::post('/login/admin/dashboard', [IndexHomeController::class, 'LoginAdmin'])->name('login.dashboard.admin');
