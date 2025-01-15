@@ -467,7 +467,7 @@ min-width:150px;
 
         .product-brand{
 
-            width: 45% !important;
+            width: 42% !important;
     height: 20px !important;
     margin: 0 5px;
 

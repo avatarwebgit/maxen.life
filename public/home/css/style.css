@@ -10974,8 +10974,9 @@ header .header-master.header-half .social-network-box {
 }
 .product-description > span{
     position: absolute;
+    text-align: center !important;
     top: 0;
-    font-size:15px !important;
+    font-size:12px !important;
     left: 50%;
     transform: translate(-50%, -50%);
     background: #fff;
