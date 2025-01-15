@@ -1220,7 +1220,7 @@
                                 <div class="d-flex justify-content-center align-items-center flex-column">
                                     @if(file_exists(public_path(env('PRODUCT_IMAGES_UPLOAD_PATH').$item->primary_image))
               and !is_dir(public_path(env('PRODUCT_IMAGES_UPLOAD_PATH').$item->primary_image)))
-                                        <img
+                                        <img style="width: 40%"
                                             src="{{ url(env('PRODUCT_IMAGES_UPLOAD_PATH') . $item->primary_image) }}"
                                             alt="">
                                     @else
