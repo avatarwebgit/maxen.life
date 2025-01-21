@@ -1333,7 +1333,7 @@ $('.loader-filter').show();
                                     <div class="card-footer">
                                       <div class="d-flex mb-4 justify-content-center">
 
-                                            <a onclick="AddToCompareList(event,{{ $product->id }})" class="btn-compare mr-3  cursor-pointer">
+                                            <a onclick="AddToCompareList(event,{{ $product->id }},this)" class="btn-compare mr-3  {{in_array($product->id,session()->get('compareProducts')) ? 'disabled': ''}}  cursor-pointer">
                                            {{__('Compare')}}
                                         </a>
 

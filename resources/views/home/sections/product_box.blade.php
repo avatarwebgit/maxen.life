@@ -1,6 +1,6 @@
 
   @foreach($products as $product)
-                      
+
                             <div class="col-lg-3 mb-4">
                                 <div  class="card">
                                     <a href="{{ route('home.product',['alias'=>$product->alias]) }}">
@@ -24,14 +24,14 @@
                                     </div>
                                     <div class="card-footer">
                                       <div class="d-block mb-4">
-                                            
-                                            <a onclick="AddToCompareList(event,{{ $product->id }})" class="btn-compare cursor-pointer">
+
+                                            <a onclick="AddToCompareList(event,{{ $product->id }},this)" class="btn-compare {{in_array($product->id,session()->get('compareProducts')) ? 'disabled': ''}} cursor-pointer">
                                            {{__('Add To CompareList')}}
                                         </a>
                                       </div>
-                                             
+
                                         @foreach($product->attributes->reverse() as $item)
-                               
+
 @if($item->attribute_id == 2 or $item->attribute_id == 46)
 @if($item->attributeValues($item->value,$item->attribute_id)->image != null)
 <img  class="product-brand" src="{{imageExist(env('ATTR_UPLOAD_PATH'),$item->attributeValues($item->value,$item->attribute_id)->image)}}">
@@ -39,9 +39,9 @@
 @endif
 @endforeach
 
-                                        
-                            
-                              
+
+
+
 
                                     </div>
 

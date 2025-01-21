@@ -1098,6 +1098,7 @@
         }
     </style>
     <style>
+
     @media(max-width:992px){
            .margin-0{
         margin:0 !important;
@@ -1204,6 +1205,25 @@
                 display: flex;
             }
         }
+    .product-title h4 {
+        font-size:18px !important;
+    }
+
+    .remove-from-compare {
+        margin-top: 10px;
+        background-color: #f44336; /* رنگ قرمز برای حذف */
+        color: white;
+        font-size: 14px;
+        padding: 5px 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .btn:before{
+        content: ''  !important;
+    }
+
     </style>
 @endsection
 
@@ -1230,7 +1250,13 @@
                                         <h4>{{$item->title_2}} <span style="font-weight:500">{{$item->title_1}}</span> </h4>
                                         <h4>{{$item->name}}</h4>
                                     </div>
+
+                                        <a href="{{ route('home.compare.remove',['productId'=>$item->id]) }}" class=" remove-from-compare" data-product-id="{{ $item->id }}">
+                                            حذف از مقایسه
+                                        </a>
                                 </div>
+
+
                             </div>
                             @endforeach
                         </div>
