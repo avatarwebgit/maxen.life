@@ -1332,11 +1332,12 @@ $('.loader-filter').show();
                                     </div>
                                     <div class="card-footer">
                                       <div class="d-flex mb-4 justify-content-center">
-@if(session()->get('compareProducts'))
-                                            <a onclick="AddToCompareList(event,{{ $product->id }},this)" class="btn-compare mr-3  {{in_array($product->id,session()->get('compareProducts')) ? 'disabled': ''}}  cursor-pointer">
+
+                                            <a onclick="AddToCompareList(event,{{ $product->id }},this)" class="btn-compare mr-3  {{session()->get('compareProducts') ? (in_array($product->id,session()->get('compareProducts')) ? 'disabled': '') : ''}}  cursor-pointer">
                                            {{__('Compare')}}
                                         </a>
-@endif
+
+
                                         <a class="show-product cursor-pointer">{{__('More Information')}}</a>
                                       </div>
 
