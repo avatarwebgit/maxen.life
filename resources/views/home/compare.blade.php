@@ -1252,7 +1252,7 @@
                                     </div>
 
                                         <a href="{{ route('home.compare.remove',['productId'=>$item->id]) }}" class=" remove-from-compare" data-product-id="{{ $item->id }}">
-                                            حذف از مقایسه
+                                            حذف از لیست
                                         </a>
                                 </div>
 
