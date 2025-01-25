@@ -128,10 +128,9 @@ class ProductImageController extends Controller
 
             if ($request->has('primary_image')) {
 
-                $fileNamePrimaryImage = generateFileName($request->primary_image->getClientOriginalName());
-                parent::createThumbnail(400,$request->primary_image,$env,$fileNamePrimaryImage);
-                $request->primary_image->move(public_path(env('PRODUCT_IMAGES_UPLOAD_PATH')), $fileNamePrimaryImage);
 
+                $env=env('PRODUCT_IMAGES_UPLOAD_PATH');
+                $fileNamePrimaryImage = uploadImage($request->primary_image,env('PRODUCT_IMAGES_UPLOAD_PATH'));
                 $product->update([
                     'primary_image' => $fileNamePrimaryImage
                 ]);
@@ -143,11 +142,9 @@ class ProductImageController extends Controller
 
                 foreach ($request->images as $image) {
 
-                    $fileNameImage = generateFileName($image->getClientOriginalName());
 
-                    parent::createThumbnail(400,$image,$env,$fileNameImage);
-
-                    $image->move(public_path(env('PRODUCT_IMAGES_UPLOAD_PATH')), $fileNameImage);
+                    $env=env('PRODUCT_IMAGES_UPLOAD_PATH');
+                    $fileNameImage = uploadImage($image,env('PRODUCT_IMAGES_UPLOAD_PATH'));
 
       ProductImage::create([
                         'product_id' => $product->id,
