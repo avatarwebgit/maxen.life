@@ -18,8 +18,16 @@
         background:#fff;
     }
     .card:hover{
-            background: #eeebeb;
-    border-color: #eeebeb;
+        background: #eeebeb;
+        border-color: #eeebeb;
+    }
+
+    .product-custom-title {
+        background:  red !important;
+    }
+
+    .product-details  span, .product-detail p ,.product-details a, .product-detail div,.product-details li ,.product-details ul{
+        background-color:transparent !important;
     }
 
         .card:hover .btn-compare{
@@ -451,8 +459,6 @@ min-width:150px;
         }
         .product-details span {
             font-size: 11px;
-            /* padding: 4px; */
-            /* border: 1px solid; */
             color: #000;
             margin-bottom: 7px;
         }
@@ -463,6 +469,7 @@ min-width:150px;
             padding: 8px;
             border-radius: 15px;
             color: #000;
+
         }
 
         .product-brand{
@@ -570,6 +577,7 @@ min-width:150px;
         }
         .card{
             background: #fff;
+            height:100%
         }
 
 
@@ -1324,7 +1332,7 @@ $('.loader-filter').show();
 
                                @if($product->shortDescription != null)
                                             <div class="product-description">
-                                                             <span>{{__('Attribute')}}</span>
+                                                             <span class="product-custom-title">{{__('Attribute')}}</span>
                                                 {!! app()->getLocale() == 'fa' ? $product->shortDescription : $product->shortDescription_en !!}
                                             </div>
 @endif
