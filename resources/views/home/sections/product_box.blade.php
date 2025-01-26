@@ -25,7 +25,7 @@
                                     <div class="card-footer">
                                       <div class="d-block mb-4">
 
-                                            <a onclick="AddToCompareList(event,{{ $product->id }},this)" class="btn-compare {{in_array($product->id,session()->get('compareProducts')) ? 'disabled': ''}} cursor-pointer">
+                                            <a onclick="AddToCompareList(event,{{ $product->id }},this)" class="btn-compare {{in_array($product->id,session()->get('compareProducts')??[]) ? 'disabled': ''}} cursor-pointer">
                                            {{__('Add To CompareList')}}
                                         </a>
                                       </div>
