@@ -731,6 +731,8 @@ function changeLang(url,event)
          slidesPerView: 1,
       spaceBetween:30,
       initialSlide: 2,
+                    loop:true,
+                    autoplay:true,
       rtl:false,
        breakpoints: {
 
@@ -1172,7 +1174,7 @@ $(document).scroll(function(){
 
 
         <section class="our-work  section-margin dsn-arrow" data-dsn-col="3">
-            <div style="padding: 0 7.6%" class=" text-center">
+            <div style="padding: 0 7.6% ; margin-bottom: 15px ;" class=" text-center">
 <img src="{{asset('home/img/LifeStyle_1.svg')}}">
 
             </div>

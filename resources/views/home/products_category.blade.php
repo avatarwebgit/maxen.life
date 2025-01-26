@@ -17,6 +17,9 @@
     .category-section{
         background:#fff;
     }
+    .card,.card *{
+        transition: all .25s ease;
+    }
     .card:hover{
         background: #eeebeb;
         border-color: #eeebeb;
@@ -24,10 +27,19 @@
 
     .product-custom-title {
         background:  red !important;
+        font-size: 11px;
+        color: #000;
+        margin-bottom: 7px;
+        padding: 0 10px !important;
     }
 
     .product-details  span, .product-detail p ,.product-details a, .product-detail div,.product-details li ,.product-details ul{
-        background-color:transparent !important;
+        background-color:#ffffff !important;
+        text-align: justify;
+    }
+
+    .card:hover .product-details  span, .product-detail p ,.product-details a, .product-detail div,.product-details li ,.product-details ul{
+        background-color:#eeebeb !important;
     }
 
         .card:hover .btn-compare{
@@ -454,14 +466,14 @@ min-width:150px;
     .product-title  p:nth-child(3) {
                            font-size: 25px;
             color: #000 !important;
-            text-align: left;
+            text-align: left;}
 
-        }
-        .product-details span {
-            font-size: 11px;
-            color: #000;
-            margin-bottom: 7px;
-        }
+
+        /*.product-details span {*/
+        /*    font-size: 11px;*/
+        /*    color: #000;*/
+        /*    margin-bottom: 7px;*/
+        /*}*/
 
         .product-description{
             font-size: 12px;
@@ -475,8 +487,7 @@ min-width:150px;
         .product-brand{
 
             width: 42% !important;
-    height: 20px !important;
-    margin: 0 5px;
+    margin: 0 3%;
 
         }
         .btn-compare{
@@ -577,12 +588,20 @@ min-width:150px;
         }
         .card{
             background: #fff;
-            height:100%
+            height:100%;
+            display: flex;
+            flex-direction:column;
+            align-items: center;
+            justify-content: space-between;
+
         }
 
 
         .card-img-top{
             width:100%;
+            border-radius: 12px !important;
+            margin-bottom: 5px;
+            background-color: transparent;
         }
 
         @media (min-width: 992px) {
@@ -1067,7 +1086,7 @@ min-width:150px;
         }
 
         .product-brand{
-            height:40px !important;
+            /*height:40px !important;*/
         }
     }
 @media (max-width:464px){
