@@ -1338,7 +1338,7 @@ $('.loader-filter').show();
                                         </a>
 
 
-                                        <a class="show-product cursor-pointer">{{__('More Information')}}</a>
+                                        <a href="{{ route('home.product',['alias'=>$product->alias]) }}" class="show-product cursor-pointer">{{__('More Information')}}</a>
                                       </div>
 
                                         @foreach($product->attributes->reverse() as $item)
