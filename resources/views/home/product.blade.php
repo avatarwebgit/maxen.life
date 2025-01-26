@@ -128,6 +128,7 @@ font-size:16px;
     .product-brand{
             height: auto;
     width: 120px !important;
+        margin: 3%;
     }
     .site-header{
         z-index:99 !important;
@@ -313,6 +314,12 @@ width:40%;
             padding: 20px;
             border-radius: 15px;
             color: #000;
+
+        }
+
+        .product-description span,.product-description a,.product-description li,.product-description ul,.product-description div{
+            background-color: transparent !important;
+            text-align: justify !important;
         }
 
         /*.product-brand{*/
@@ -326,12 +333,15 @@ width:40%;
             border: 1px solid;
             padding: 5px 15px;
             border-radius: 11px;
+            margin:3%;
+            cursor: pointer;
         }
         .card-footer{
             margin-top:15px;
             display: flex;
             padding: 0 55px;
-            justify-content: space-between;
+            justify-content: center;
+            align-items: center;
         }
         .box-filter{
             border-top: 1px solid;

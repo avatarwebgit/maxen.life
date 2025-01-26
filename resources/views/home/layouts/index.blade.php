@@ -12,6 +12,9 @@
 
     <link rel="shortcut icon" href="{{ imageExist(env('LOGO_UPLOAD_PATH'),$setting->favicon) }}" type="image/x-icon"/>
     <link rel="icon" href="{{ imageExist(env('LOGO_UPLOAD_PATH'),$setting->favicon) }}" type="image/x-icon"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
 
     <!-- custom styles (optional) -->
     <link href="{{asset('home/css/plugins.css')}}" rel="stylesheet"/>

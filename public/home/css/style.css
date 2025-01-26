@@ -11407,3 +11407,11 @@ header .header-master.header-half .social-network-box {
     text-align: center;
     min-width: 160px;
 }
+
+.form-control{
+    height:50px;
+}
+
+.change-lang-btn,.search-toggler{
+    cursor: pointer;
+}

@@ -144,6 +144,20 @@
 		});
 	}
 
+    const swiper = new Swiper('.swiper-container', {
+        slidesPerView: 5,
+        spaceBetween: 10,
+        loop: true,
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+
 	function projectSlider() {
 		let dsnSwiper = [],
 			dsnslick = [];
@@ -163,6 +177,7 @@
 				dsnSwiper = [];
 				dsnslick = [];
 			},
+
 			bySwiper: function ($id, $obj) {
 				dsnGrid.convertToJQuery($id).each(function () {
 					let $s = new Swiper($(this).find('.swiper-container'), {
@@ -170,7 +185,8 @@
 						spaceBetween: 80,
 						allowTouchMove: true,
 						grabCursor: true,
-
+                        loop:true,
+                        autoplay:true,
 						resistanceRatio: 0.65,
 						watchSlidesProgress: true,
 						slidesPerViewFit: false,
