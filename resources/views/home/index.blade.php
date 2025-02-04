@@ -1111,8 +1111,8 @@ $(document).scroll(function(){
      <section  class="service service-3 section-margin dsn-animate" data-dsn-animate="section">
 
             <div class="container-fluid padding-0 " data-dsn-animate="section">
-          <div class="row row-custom">
-              <div class="w-100  title-section-product mb-3 d-flex justify-content-between">
+          <div class="row row-custom mb-5">
+              <div class="w-100  title-section-product mb-5 d-flex justify-content-between">
                <img src="{{asset('home/img/Allproduct.svg')}}">
 
                 </div>
@@ -1126,7 +1126,7 @@ $(document).scroll(function(){
 
 
                     @foreach($banners as $banner)
-                        <div  class="col-12 mb-5 swiper-slide service-content ">
+                        <div  class="col-12 mb-5 mt-5 swiper-slide service-content ">
                             <div  class="product-item">
                                 <div class="product-banner">
                                     <img src="{{imageExist(env('BANNER_IMAGES_UPLOAD_PATH'),$banner->image)}}">
