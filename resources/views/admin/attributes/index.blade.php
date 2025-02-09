@@ -14,6 +14,16 @@
         th {
             vertical-align: middle !important;
         }
+
+        i{
+            /*transform: scale(1.5);*/
+        }
+        .btn>i{
+            padding-left:0 !important;
+        }
+        th:has(a){
+            display:flex;
+        }
     </style>
 @endsection
 
