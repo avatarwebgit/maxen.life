@@ -183,7 +183,31 @@
                                value="{{ $setting->meta_key }}">
                     </div>
  
-
+                <div class="form-group col-md-4">
+                    <label for="name">پیج اینستاگرام </label>
+                    <input class="form-control" id="instagram" name="instagram" type="text"
+                           value="{{ $setting->instagram }}">
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="aparat">آپارات  </label>
+                    <input class="form-control" id="aparat" name="aparat" type="text"
+                           value="{{ $setting->aparat }}">
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="name">یوتیوب</label>
+                    <input class="form-control" id="youtube" name="youtube" type="text"
+                           value="{{ $setting->youtube }}">
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="name"> لینکدین </label>
+                    <input class="form-control" id="linkedin" name="linkedin" type="text"
+                           value="{{ $setting->linkedin }}">
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="name">توئیتر  </label>
+                    <input class="form-control" id="twitter" name="twitter" type="text"
+                           value="{{ $setting->twitter }}">
+                </div>
 
                     <div class="form-group col-md-6">
                         <label for="name">زبان پیش فرض سایت  </label>
