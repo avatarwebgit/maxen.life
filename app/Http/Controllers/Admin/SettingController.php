@@ -153,7 +153,11 @@ try{
             'info_link' => $request->info_link,
             'login_link' => $request->login_link,
             'support_link' => $request->support_link,
-
+            'instagram' => $request->instagram,
+            'youtube' => $request->youtube,
+            'linkedin' => $request->linkedin,
+            'twitter' => $request->twitter,
+            'aparat'=>$request->aparat,
             'image' => $Image,
             'newest_page_banner' => $newest_page_banner,
             'special_page_banner' => $special_page_banner,
