@@ -122,7 +122,7 @@
                 <h1> اطلاعات نمایشی سایت </h1>
                 
                 <div class="form-row">
-                                       <div class="form-group col-md-8">
+                                       <div class="form-group col-md-6">
                         <label for="name">لوگو شرکت </label>
                         <div class="input-group mb-3">
                             <div class="custom-file">
@@ -135,7 +135,7 @@
                         @enderror
                     </div>
                     
-                                                           <div class="form-group col-md-8">
+                                                           <div class="form-group col-md-6">
                         <label for="name"> favicon </label>
                         <div class="input-group mb-3">
                             <div class="custom-file">
