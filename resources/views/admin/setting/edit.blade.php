@@ -172,16 +172,7 @@
                     </div>
                     
                     
-                                          <div class="form-group col-md-6">
-                        <label for="name">Meta Description </label>
-                        <input class="form-control" id="meta_des" name="meta_des" type="text"
-                               value="{{ $setting->meta_des }}">
-                    </div>
-                    <div class="form-group col-md-6">
-                        <label for="name">Meta Keyword</label>
-                        <input class="form-control" id="meta_key" name="meta_key" type="text"
-                               value="{{ $setting->meta_key }}">
-                    </div>
+
  
                 <div class="form-group col-md-4">
                     <label for="name">پیج اینستاگرام </label>
@@ -208,6 +199,17 @@
                     <input class="form-control" id="twitter" name="twitter" type="text"
                            value="{{ $setting->twitter }}">
                 </div>
+
+                                                              <div class="form-group col-md-6">
+                        <label for="name">Meta Description </label>
+                        <input class="form-control" id="meta_des" name="meta_des" type="text"
+                               value="{{ $setting->meta_des }}">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="name">Meta Keyword</label>
+                        <input class="form-control" id="meta_key" name="meta_key" type="text"
+                               value="{{ $setting->meta_key }}">
+                    </div>
 
                     <div class="form-group col-md-6">
                         <label for="name">زبان پیش فرض سایت  </label>
