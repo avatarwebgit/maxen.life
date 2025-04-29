@@ -60,7 +60,7 @@
             filebrowserUploadUrl: "{{route('upload', ['_token' => csrf_token() ])}}",
             filebrowserUploadMethod: 'form'
         });
-        
+
                CKEDITOR.replace('description_en', {
             language: 'en',
             filebrowserUploadUrl: "{{route('upload', ['_token' => csrf_token() ])}}",
@@ -81,7 +81,7 @@
             language: 'fa',
             selector: '#shortDescription'
         });
-        
+
                 tinymce.init({
             language: 'en',
             selector: '#shortDescription_en'
@@ -104,13 +104,13 @@
                 </div>
             </div>
             <hr>
-            
+
               <div class="col-12 d-flex justify-content-between align-items-center">
 <ul class="nav nav-tabs" id="myTab" role="tablist">
   <li class="nav-item" role="presentation">
     <button class="nav-link active" id="fa-tab" data-toggle="tab" data-target="#fa" type="button" role="tab" aria-controls="fa" aria-selected="true">فارسی
-    
-    
+
+
     </button>
   </li>
   <li class="nav-item" role="presentation">
@@ -119,7 +119,7 @@
 
 </ul>
 
-      
+
                 </div>
 
             @include('admin.sections.errors')
@@ -129,7 +129,7 @@
 
 
     <div class="tab-content" id="myTabContent">
-        
+
       <div class="tab-pane fade show active" id="fa" role="tabpanel" aria-labelledby="fa-tab">
                      <div class="form-row">
 
@@ -144,13 +144,17 @@
                         <label for="name"> عنوان 2</label>
                         <input class="form-control" id="name" name="title_2" type="text" value="{{ old('title_2') }}">
                     </div>
-                    
+
+                         <label for="name">لینک ar</label>
+                         <input class="form-control" id="name" name="ar" type="text" value="{{ old('ar')  }}">
+                     </div>
+
                                                      <div class="form-group col-md-3">
                         <label for="name">نام *</label>
                         <input class="form-control" id="name" name="name" type="text" value="{{ old('name') }}">
                     </div>
-                    
-                    
+
+
                            <div class="form-group col-md-12">
                         <label for="shortDescription">توضیحات مختصر</label>
                         <textarea class="form-control" id="shortDescription"
@@ -175,7 +179,7 @@
                     </div>
                       </div>
       </div>
-      
+
         <div class="tab-pane fade " id="en" role="tabpanel" aria-labelledby="en-tab">
               <div class="form-row">
                    <div class="form-group col-md-3">
@@ -193,8 +197,8 @@
                         <label for="name"> عنوان انگلیسی 2</label>
                         <input class="form-control" id="name" name="title_2_en" type="text" value="{{ old('title_2_en') }}">
                     </div>
-                    
-                    
+
+
                       <div class="form-group col-md-12">
                         <label for="shortDescription">توضیحات مختصر انگلیسی</label>
                         <textarea class="form-control" id="shortDescription_en"
@@ -208,7 +212,7 @@
                         <textarea class="form-control" id="description_en"
                                   name="description_en">{{ old('description_en') }}</textarea>
                     </div>
-                    
+
                                               <div class="form-group col-md-6">
                         <label for="name">Meta Description</label>
                         <input class="form-control" id="meta_des_en" name="meta_des_en" type="text" value="">
@@ -221,11 +225,11 @@
                     </div>
               </div>
       </div>
-      
+
     </div>
                 <div class="form-row">
-            
-                   
+
+
 
                     <div class="form-group col-md-3">
                         <label for="name">alias</label>
@@ -255,11 +259,11 @@
 
 
 
-             
-                  
 
 
-           
+
+
+
 
 
 

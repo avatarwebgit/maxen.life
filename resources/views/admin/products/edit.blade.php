@@ -256,7 +256,7 @@
             language: 'fa',
             selector: '#shortDescription'
         });
-        
+
                 tinymce.init({
             language: 'en',
             selector: '#shortDescription_en'
@@ -277,7 +277,7 @@
                 </div>
             </div>
             <hr>
-            
+
                           <div class="col-12 d-flex justify-content-between align-items-center">
 <ul class="nav nav-tabs" id="myTab" role="tablist">
   <li class="nav-item" role="presentation">
@@ -289,7 +289,7 @@
 
 </ul>
 
-      
+
                 </div>
             <div class="d-flex justify-content-center mb-3">
                 <img class="img-thumbnail"
@@ -305,10 +305,10 @@
                 @csrf
                 @method('put')
                 <input type="hidden" name="close" id="close" value="">
-                
-                
+
+
                     <div class="tab-content" id="myTabContent">
-        
+
       <div class="tab-pane fade show active" id="fa" role="tabpanel" aria-labelledby="fa-tab">
                      <div class="form-row">
 
@@ -327,10 +327,12 @@
                         <label for="name"> عنوان 3</label>
                         <input class="form-control" id="name" name="title_2" type="text" value="{{  $product->title_2  }}">
                     </div>
-                    
-        
-                    
-                    
+
+
+                         <label for="name">لینک ar</label>
+                         <input class="form-control" id="name" name="ar" type="text" value="{{ $product->ar }}">
+                     </div>
+
                        <div class="form-group col-md-12">
                         <label for="shortDescription">توضیحات مختصر</label>
                         <textarea class="form-control" id="shortDescription"
@@ -341,7 +343,7 @@
                         <textarea class="form-control" id="description" name="description"
                                   rows="4">{!! $product->description !!}</textarea>
                     </div>
-                    
+
                                 <div class="form-group col-md-6">
                         <label for="name">Meta Description</label>
                      <input class="form-control" id="meta_des" name="meta_des" type="text" value="{{ $product->meta_des }}">
@@ -373,7 +375,7 @@
                         <label for="name"> عنوان انگلیسی 3</label>
                         <input class="form-control" id="name_en" name="title_2_en" type="text" value="{{  $product->title_2_en  }}">
                     </div>
-                    
+
                          <div class="form-group col-md-12">
                         <label for="shortDescription">توضیحات مختصر</label>
                         <textarea class="form-control" id="shortDescription_en"
@@ -384,7 +386,7 @@
                         <textarea class="form-control" id="description_en" name="description_en"
                                   rows="4">{!! $product->description_en !!}</textarea>
                     </div>
-                    
+
                                 <div class="form-group col-md-6">
                         <label for="name">Meta Description</label>
                         <input class="form-control" id="meta_des_en" name="meta_des_en" type="text" value="{{ $product->meta_des_en }}">
@@ -398,10 +400,10 @@
                          </div>
 </div>
     </div>
-                         
+
                 <div class="form-row">
-                  
-                 
+
+
 
 
                     <div class="form-group col-md-3">
@@ -430,9 +432,9 @@
                             </option>
                         </select>
                     </div>
-                 
-               
-            
+
+
+
                 </div>
 
 

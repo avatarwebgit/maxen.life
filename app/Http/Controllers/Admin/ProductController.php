@@ -161,6 +161,7 @@ class ProductController extends Controller
             $product = Product::create([
                 'name_en' => $request->name_en,
                 'name' => $request->name,
+                'ar' => $request->ar,
                 'title_1_en' => $request->title_1_en,
                 'title_1' => $request->title_1,
                 'title_2_en' => $request->title_2_en,
@@ -318,6 +319,7 @@ class ProductController extends Controller
 
             $product->update([
                 'name' => $request->name,
+                'ar' => $request->ar,
                 'name_en' => $request->name_en,
                 'title_1' => $request->title_1,
                 'title_1_en' => $request->title_1_en,

@@ -1086,7 +1086,9 @@ width:40%;
 
                         </div>
                         <div class="card-footer dir-rtl">
-
+                            <a href="{{$product->ar}}" class="btn-compare">
+                                {{__('AR')}}
+                            </a>
                             <a onclick="AddToCompareList(event,{{ $product->id }})" class="btn-compare">
                                 {{__('Compare')}}
                             </a>
