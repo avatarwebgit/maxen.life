@@ -39,7 +39,7 @@
             border-radius: .85rem;
             box-shadow: 0 4px 12px rgba(0, 0, 0, .06);
             transition: transform .15s ease, box-shadow .2s ease;
-            min-height: 125px; /* ارتفاع معقول برای نمایش بهتر متن */
+            min-height: 125px;
         }
 
         .stat-card:hover {
@@ -60,7 +60,7 @@
             text-shadow: 0 1px 2px rgba(0, 0, 0, .3);
         }
 
-        /* اعداد و کپشن‌ها: بزرگ‌تر و خواناتر */
+        /* اعداد و کپشن‌ها */
         .stat-card h3 {
             font-size: 1.65rem;
             font-weight: 800;
@@ -101,7 +101,6 @@
             background: linear-gradient(135deg, #ffb739, #ffd449);
         }
 
-        /* کارت زرد: متن تیره برای کنتراست */
         .stat-card.bg-warning h3,
         .stat-card.bg-warning p,
         .stat-card.bg-warning i {
@@ -111,7 +110,11 @@
 
         /* فاصله‌ها */
         .stats-row {
-            row-gap: 12px;
+            display: flex;
+            justify-content: center; /* وسط‌چین افقی */
+            align-items: center; /* وسط‌چین عمودی */
+            flex-wrap: wrap; /* ریسپانسیو */
+            gap: 12px;
             margin-bottom: 1.6rem;
         }
 
@@ -134,7 +137,6 @@
 
 @section('script')
     <script>
-        /* اطمینان: قبل از این فایل، Chart.js در layout لود باشد */
         const chartData = {
             dates: @json($chartDates),
             values: @json($chartValues)
@@ -213,16 +215,6 @@
                                 <i class="fas fa-calendar-day"></i>
                                 <h3>{{ number_format($yesterdayVisits) }}</h3>
                                 <p>بازدید دیروز</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-3 col-md-6">
-                        <div class="card bg-danger text-white stat-card">
-                            <div class="card-body">
-                                <i class="fas fa-comments"></i>
-                                <h3>{{ number_format($comments) }}</h3>
-                                <p>تعداد نظرات</p>
                             </div>
                         </div>
                     </div>
